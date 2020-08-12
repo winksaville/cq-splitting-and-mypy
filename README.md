@@ -1,4 +1,11 @@
-# Experimenting with spliting solids and using mypy
+# Experimenting with splitting solids and using mypy
+
+
+Update: Adam has merged [PR #430](https://github.com/CadQuery/cadquery/pull/430) and
+educated me on how [@overload](https://docs.python.org/3/library/typing.html#typing.overload) works.
+
+
+---
 
 I asked for help on the cq group, see: https://groups.google.com/g/cadquery/c/DFVe83-Ctb8/m/w_WI91LkCwAJ.
 
@@ -38,12 +45,12 @@ sys	0m0.357s
 
 - Copy [mypy.ini from cadquery repo](https://github.com/CadQuery/cadquery/blob/master/mypy.ini) to the root of your cadquery project.
 ```
-(cq-dev) wink@3900x:~/prgs/CadQuery/projects/spliting (master)
+(cq-dev) wink@3900x:~/prgs/CadQuery/projects/splitting (master)
 $ cp ~/prgs/CadQuery/forks/cadquery/mypy.ini .
 ```
 - Edit mypy.ini adding mypy_path to [mypy] section which points to the `stubs` directory created above:
 ```
-(cq-dev) wink@3900x:~/prgs/CadQuery/projects/spliting (master)
+(cq-dev) wink@3900x:~/prgs/CadQuery/projects/splitting (master)
 $ cat -n mypy.ini 
      1	[mypy]
      2	ignore_missing_imports = False 
@@ -63,12 +70,12 @@ $ cat -n mypy.ini
 ````
 Execute mypy on *.py files, this first time is slow as it creates the .mypy_cache:
 ```
-(cq-dev) wink@3900x:~/prgs/CadQuery/projects/spliting (master)
+(cq-dev) wink@3900x:~/prgs/CadQuery/projects/splitting (master)
 $ time mypy *.py
-spliting.py:4: error: Argument 1 to "Workplane" has incompatible type "str"; expected "Union[Vector, Location, Shape]"
-spliting.py:6: error: Argument 1 to "faces" of "Workplane" has incompatible type "str"; expected "Optional[Selector]"
-spliting.py:14: error: Argument 1 to "faces" of "Workplane" has incompatible type "str"; expected "Optional[Selector]"
-spliting.py:22: error: Argument 1 to "faces" of "Workplane" has incompatible type "str"; expected "Optional[Selector]"
+splitting.py:4: error: Argument 1 to "Workplane" has incompatible type "str"; expected "Union[Vector, Location, Shape]"
+splitting.py:6: error: Argument 1 to "faces" of "Workplane" has incompatible type "str"; expected "Optional[Selector]"
+splitting.py:14: error: Argument 1 to "faces" of "Workplane" has incompatible type "str"; expected "Optional[Selector]"
+splitting.py:22: error: Argument 1 to "faces" of "Workplane" has incompatible type "str"; expected "Optional[Selector]"
 Found 4 errors in 1 file (checked 1 source file)
 
 real	0m22.792s
