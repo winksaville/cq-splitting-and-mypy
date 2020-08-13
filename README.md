@@ -1,10 +1,57 @@
 # Experimenting with splitting solids and using mypy
 
+Update 2020-08-13:
+
+As I started the day I was having one last problem running mypy. This is after incorporating
+the changes from Adam as well as my [PR #435](https://github.com/CadQuery/cadquery/pull/435) which
+add `py.typed`:
+```
+(cq-dev) wink@3900x:~/prgs/CadQuery/projects/splitting (master)
+$ mypy workplane.py 
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/cq-dev/bin/mypy", line 8, in <module>
+    sys.exit(console_entry())
+  File "/opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/__main__.py", line 8, in console_entry
+    main(None, sys.stdout, sys.stderr)
+  File "mypy/main.py", line 89, in main
+  File "mypy/build.py", line 180, in build
+  File "mypy/build.py", line 252, in _build
+  File "mypy/build.py", line 2626, in dispatch
+  File "mypy/build.py", line 2942, in process_graph
+  File "mypy/build.py", line 3020, in process_fresh_modules
+  File "mypy/build.py", line 1955, in fix_cross_refs
+  File "mypy/fixup.py", line 25, in fixup_module
+  File "mypy/fixup.py", line 91, in visit_symbol_table
+  File "mypy/nodes.py", line 515, in accept
+  File "mypy/fixup.py", line 105, in visit_overloaded_func_def
+  File "mypy/types.py", line 1296, in accept
+  File "mypy/fixup.py", line 196, in visit_overloaded
+  File "mypy/types.py", line 1098, in accept
+  File "mypy/fixup.py", line 182, in visit_callable_type
+  File "mypy/types.py", line 1724, in accept
+  File "mypy/fixup.py", line 251, in visit_union_type
+  File "mypy/types.py", line 794, in accept
+  File "mypy/fixup.py", line 153, in visit_instance
+  File "mypy/fixup.py", line 262, in lookup_qualified_typeinfo
+  File "mypy/fixup.py", line 290, in lookup_qualified
+  File "mypy/fixup.py", line 299, in lookup_qualified_stnode
+  File "mypy/lookup.py", line 47, in lookup_fully_qualified
+AssertionError: Cannot find component 'Message' for 'OCP.Message.Message_ProgressIndicator'
+```
+To make a long story short, see the comments in PR #435, if I use the master branch of mypy
+all is well!!!!
+```
+(cq-dev) wink@3900x:~/prgs/CadQuery/projects/splitting (master)
+$ mypy workplane.py 
+mypy.main:+ WINK
+Success: no issues found in 1 source file
+```
+
+---
 
 Update: Adam has merged [PR #430](https://github.com/CadQuery/cadquery/pull/430) and
 now there is only one error when I use stubgen to generate `*.pyi` files. Additonally,
-the reason 
-educated me on how [@overload](https://docs.python.org/3/library/typing.html#typing.overload) works.
+he educated me on how [@overload](https://docs.python.org/3/library/typing.html#typing.overload) works.
 
 
 

@@ -1,0 +1,411 @@
+
+LOG:  Mypy Version:           0.782
+LOG:  Config File:            Default
+LOG:  Source Path:            workplane.py
+LOG:  Configured Executable:  /opt/miniconda3/envs/cq-dev/bin/python3.7
+LOG:  Current Executable:     /opt/miniconda3/envs/cq-dev/bin/python3.7
+LOG:  Cache Dir:              .mypy_cache
+LOG:  Compiled:               True
+LOG:  Metadata abandoned for workplane: file workplane.py has different size
+LOG:  Parsing workplane.py (workplane)
+LOG:  Metadata fresh for cadquery: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/__init__.py
+LOG:  Metadata fresh for builtins: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/builtins.pyi
+LOG:  Metadata fresh for cadquery.occ_impl.geom: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/geom.py
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/geom.py (cadquery.occ_impl.geom)
+LOG:  Metadata fresh for cadquery.occ_impl.shapes: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/shapes.py
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/shapes.py (cadquery.occ_impl.shapes)
+LOG:  Metadata fresh for cadquery.occ_impl: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/__init__.py
+LOG:  Metadata fresh for cadquery.occ_impl.exporters: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/__init__.py
+LOG:  Metadata fresh for cadquery.occ_impl.importers: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/importers.py
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/importers.py (cadquery.occ_impl.importers)
+LOG:  Metadata fresh for cadquery.selectors: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/selectors.py
+LOG:  Metadata fresh for cadquery.cq: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/cq.py
+LOG:  Metadata fresh for cadquery.plugins: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/plugins/__init__.py
+LOG:  Metadata fresh for typing: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/typing.pyi
+LOG:  Metadata fresh for abc: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/abc.pyi
+LOG:  Metadata fresh for ast: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/ast.pyi
+LOG:  Metadata fresh for types: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/types.pyi
+LOG:  Metadata fresh for sys: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/sys.pyi
+LOG:  Metadata fresh for typing_extensions: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/third_party/2and3/typing_extensions.pyi
+LOG:  Metadata fresh for math: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/math.pyi
+LOG:  Metadata fresh for OCP.gp: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/gp/__init__.pyi
+LOG:  Metadata fresh for OCP.Bnd: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Bnd/__init__.pyi
+LOG:  Could not load cache for OCP.BRepBndLib: OCP/BRepBndLib/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepBndLib
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepBndLib/__init__.pyi (OCP.BRepBndLib)
+LOG:  Could not load cache for OCP.BRepMesh: OCP/BRepMesh/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepMesh
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepMesh/__init__.pyi (OCP.BRepMesh)
+LOG:  Metadata fresh for OCP.TopoDS: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopoDS/__init__.pyi
+LOG:  Metadata fresh for OCP.TopLoc: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopLoc/__init__.pyi
+LOG:  Metadata fresh for OCP.TopAbs: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopAbs/__init__.pyi
+LOG:  Metadata fresh for OCP: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/__init__.pyi
+LOG:  Metadata fresh for OCP.GeomAbs: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomAbs/__init__.pyi
+LOG:  Metadata fresh for OCP.TColgp: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColgp/__init__.pyi
+LOG:  Could not load cache for OCP.BRepAdaptor: OCP/BRepAdaptor/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepAdaptor
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepAdaptor/__init__.pyi (OCP.BRepAdaptor)
+LOG:  Could not load cache for OCP.BRepBuilderAPI: OCP/BRepBuilderAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepBuilderAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepBuilderAPI/__init__.pyi (OCP.BRepBuilderAPI)
+LOG:  Could not load cache for OCP.GProp: OCP/GProp/__init__.meta.json
+LOG:  Metadata not found for OCP.GProp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GProp/__init__.pyi (OCP.GProp)
+LOG:  Could not load cache for OCP.BRepGProp: OCP/BRepGProp/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepGProp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepGProp/__init__.pyi (OCP.BRepGProp)
+LOG:  Could not load cache for OCP.BRepLProp: OCP/BRepLProp/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepLProp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepLProp/__init__.pyi (OCP.BRepLProp)
+LOG:  Could not load cache for OCP.BRepPrimAPI: OCP/BRepPrimAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepPrimAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepPrimAPI/__init__.pyi (OCP.BRepPrimAPI)
+LOG:  Could not load cache for OCP.TopExp: OCP/TopExp/__init__.meta.json
+LOG:  Metadata not found for OCP.TopExp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopExp/__init__.pyi (OCP.TopExp)
+LOG:  Could not load cache for OCP.BRep: OCP/BRep/__init__.meta.json
+LOG:  Metadata not found for OCP.BRep
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRep/__init__.pyi (OCP.BRep)
+LOG:  Could not load cache for OCP.GC: OCP/GC/__init__.meta.json
+LOG:  Metadata not found for OCP.GC
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GC/__init__.pyi (OCP.GC)
+LOG:  Could not load cache for OCP.GCE2d: OCP/GCE2d/__init__.meta.json
+LOG:  Metadata not found for OCP.GCE2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GCE2d/__init__.pyi (OCP.GCE2d)
+LOG:  Could not load cache for OCP.GeomAPI: OCP/GeomAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomAPI/__init__.pyi (OCP.GeomAPI)
+LOG:  Could not load cache for OCP.BRepFill: OCP/BRepFill/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepFill
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepFill/__init__.pyi (OCP.BRepFill)
+LOG:  Could not load cache for OCP.BRepAlgoAPI: OCP/BRepAlgoAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepAlgoAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepAlgoAPI/__init__.pyi (OCP.BRepAlgoAPI)
+LOG:  Metadata fresh for OCP.Geom: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom/__init__.pyi
+LOG:  Metadata fresh for OCP.Geom2d: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2d/__init__.pyi
+LOG:  Could not load cache for OCP.BRepLib: OCP/BRepLib/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepLib
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepLib/__init__.pyi (OCP.BRepLib)
+LOG:  Could not load cache for OCP.BRepOffsetAPI: OCP/BRepOffsetAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepOffsetAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepOffsetAPI/__init__.pyi (OCP.BRepOffsetAPI)
+LOG:  Could not load cache for OCP.BRepFilletAPI: OCP/BRepFilletAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepFilletAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepFilletAPI/__init__.pyi (OCP.BRepFilletAPI)
+LOG:  Metadata fresh for OCP.TopTools: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopTools/__init__.pyi
+LOG:  Could not load cache for OCP.ShapeFix: OCP/ShapeFix/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeFix
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeFix/__init__.pyi (OCP.ShapeFix)
+LOG:  Could not load cache for OCP.STEPControl: OCP/STEPControl/__init__.meta.json
+LOG:  Metadata not found for OCP.STEPControl
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/STEPControl/__init__.pyi (OCP.STEPControl)
+LOG:  Could not load cache for OCP.StlAPI: OCP/StlAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.StlAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StlAPI/__init__.pyi (OCP.StlAPI)
+LOG:  Could not load cache for OCP.ShapeUpgrade: OCP/ShapeUpgrade/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeUpgrade
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeUpgrade/__init__.pyi (OCP.ShapeUpgrade)
+LOG:  Could not load cache for OCP.BRepTools: OCP/BRepTools/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepTools
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepTools/__init__.pyi (OCP.BRepTools)
+LOG:  Could not load cache for OCP.LocOpe: OCP/LocOpe/__init__.meta.json
+LOG:  Metadata not found for OCP.LocOpe
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/LocOpe/__init__.pyi (OCP.LocOpe)
+LOG:  Could not load cache for OCP.BRepCheck: OCP/BRepCheck/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepCheck
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepCheck/__init__.pyi (OCP.BRepCheck)
+LOG:  Metadata fresh for OCP.Font: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Font/__init__.pyi
+LOG:  Could not load cache for OCP.BRepFeat: OCP/BRepFeat/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepFeat
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepFeat/__init__.pyi (OCP.BRepFeat)
+LOG:  Could not load cache for OCP.BRepClass3d: OCP/BRepClass3d/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepClass3d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepClass3d/__init__.pyi (OCP.BRepClass3d)
+LOG:  Metadata fresh for OCP.TCollection: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TCollection/__init__.pyi
+LOG:  Could not load cache for OCP.BRepOffset: OCP/BRepOffset/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepOffset
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepOffset/__init__.pyi (OCP.BRepOffset)
+LOG:  Could not load cache for OCP.BOPAlgo: OCP/BOPAlgo/__init__.meta.json
+LOG:  Metadata not found for OCP.BOPAlgo
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BOPAlgo/__init__.pyi (OCP.BOPAlgo)
+LOG:  Metadata fresh for OCP.IFSelect: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IFSelect/__init__.pyi
+LOG:  Could not load cache for OCP.ShapeAnalysis: OCP/ShapeAnalysis/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeAnalysis
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeAnalysis/__init__.pyi (OCP.ShapeAnalysis)
+LOG:  Could not load cache for OCP.GCPnts: OCP/GCPnts/__init__.meta.json
+LOG:  Metadata not found for OCP.GCPnts
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GCPnts/__init__.pyi (OCP.GCPnts)
+LOG:  Metadata fresh for OCP.GeomFill: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomFill/__init__.pyi
+LOG:  Metadata fresh for warnings: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/warnings.pyi
+LOG:  Metadata fresh for cadquery.occ_impl.jupyter_tools: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/jupyter_tools.py
+LOG:  Metadata fresh for tempfile: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/tempfile.pyi
+LOG:  Metadata fresh for os: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/os/__init__.pyi
+LOG:  Metadata fresh for io: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/io.pyi
+LOG:  Metadata fresh for cadquery.utils: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/utils.py
+LOG:  Metadata fresh for cadquery.occ_impl.exporters.svg: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/svg.py
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/svg.py (cadquery.occ_impl.exporters.svg)
+LOG:  Metadata fresh for cadquery.occ_impl.exporters.json: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/json.py
+LOG:  Metadata fresh for cadquery.occ_impl.exporters.amf: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/amf.py
+LOG:  Metadata fresh for cadquery.occ_impl.exporters.dxf: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/dxf.py
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/dxf.py (cadquery.occ_impl.exporters.dxf)
+LOG:  Metadata fresh for cadquery.occ_impl.exporters.utils: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/utils.py
+LOG:  Metadata fresh for collections: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/collections/__init__.pyi
+LOG:  Metadata fresh for OCP.TColStd: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColStd/__init__.pyi
+LOG:  Metadata fresh for functools: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/functools.pyi
+LOG:  Metadata fresh for copy: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/copy.pyi
+LOG:  Metadata fresh for itertools: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/itertools.pyi
+LOG:  Metadata fresh for _ast: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/_ast.pyi
+LOG:  Metadata fresh for _importlib_modulespec: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/_importlib_modulespec.pyi
+LOG:  Metadata fresh for importlib.abc: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/importlib/abc.pyi
+LOG:  Metadata fresh for OCP.NCollection: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/NCollection/__init__.pyi
+LOG:  Metadata fresh for OCP.Standard: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Standard/__init__.pyi
+LOG:  Metadata fresh for OCP.Graphic3d: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Graphic3d/__init__.pyi
+LOG:  Metadata fresh for OCP.Poly: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Poly/__init__.pyi
+LOG:  Metadata fresh for OCP.Message: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Message/__init__.pyi
+LOG:  Metadata fresh for OCP.Adaptor2d: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Adaptor2d/__init__.pyi
+LOG:  Metadata fresh for OCP.Adaptor3d: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Adaptor3d/__init__.pyi
+LOG:  Could not load cache for OCP.Geom2dAdaptor: OCP/Geom2dAdaptor/__init__.meta.json
+LOG:  Metadata not found for OCP.Geom2dAdaptor
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2dAdaptor/__init__.pyi (OCP.Geom2dAdaptor)
+LOG:  Could not load cache for OCP.GeomAdaptor: OCP/GeomAdaptor/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomAdaptor
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomAdaptor/__init__.pyi (OCP.GeomAdaptor)
+LOG:  Metadata fresh for OCP.math: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/math/__init__.pyi
+LOG:  Could not load cache for OCP.BRepSweep: OCP/BRepSweep/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepSweep
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepSweep/__init__.pyi (OCP.BRepSweep)
+LOG:  Could not load cache for OCP.BRepPrim: OCP/BRepPrim/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepPrim
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepPrim/__init__.pyi (OCP.BRepPrim)
+LOG:  Metadata fresh for OCP.gce: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/gce/__init__.pyi
+LOG:  Metadata fresh for OCP.Approx: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Approx/__init__.pyi
+LOG:  Could not load cache for OCP.Extrema: OCP/Extrema/__init__.meta.json
+LOG:  Metadata not found for OCP.Extrema
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Extrema/__init__.pyi (OCP.Extrema)
+LOG:  Could not load cache for OCP.GeomLProp: OCP/GeomLProp/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomLProp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomLProp/__init__.pyi (OCP.GeomLProp)
+LOG:  Could not load cache for OCP.BRepMAT2d: OCP/BRepMAT2d/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepMAT2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepMAT2d/__init__.pyi (OCP.BRepMAT2d)
+LOG:  Could not load cache for OCP.Bisector: OCP/Bisector/__init__.meta.json
+LOG:  Metadata not found for OCP.Bisector
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Bisector/__init__.pyi (OCP.Bisector)
+LOG:  Metadata fresh for OCP.MAT: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/MAT/__init__.pyi
+LOG:  Could not load cache for OCP.GeomPlate: OCP/GeomPlate/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomPlate
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomPlate/__init__.pyi (OCP.GeomPlate)
+LOG:  Metadata fresh for OCP.AppCont: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AppCont/__init__.pyi
+LOG:  Metadata fresh for OCP.AppParCurves: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AppParCurves/__init__.pyi
+LOG:  Metadata fresh for OCP.Law: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Law/__init__.pyi
+LOG:  Could not load cache for OCP.Draft: OCP/Draft/__init__.meta.json
+LOG:  Metadata not found for OCP.Draft
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Draft/__init__.pyi (OCP.Draft)
+LOG:  Could not load cache for OCP.TopOpeBRepBuild: OCP/TopOpeBRepBuild/__init__.meta.json
+LOG:  Metadata not found for OCP.TopOpeBRepBuild
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopOpeBRepBuild/__init__.pyi (OCP.TopOpeBRepBuild)
+LOG:  Could not load cache for OCP.ChFiDS: OCP/ChFiDS/__init__.meta.json
+LOG:  Metadata not found for OCP.ChFiDS
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ChFiDS/__init__.pyi (OCP.ChFiDS)
+LOG:  Could not load cache for OCP.ChFi3d: OCP/ChFi3d/__init__.meta.json
+LOG:  Metadata not found for OCP.ChFi3d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ChFi3d/__init__.pyi (OCP.ChFi3d)
+LOG:  Could not load cache for OCP.ChFi2d: OCP/ChFi2d/__init__.meta.json
+LOG:  Metadata not found for OCP.ChFi2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ChFi2d/__init__.pyi (OCP.ChFi2d)
+LOG:  Could not load cache for OCP.ShapeBuild: OCP/ShapeBuild/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeBuild
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeBuild/__init__.pyi (OCP.ShapeBuild)
+LOG:  Could not load cache for OCP.ShapeExtend: OCP/ShapeExtend/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeExtend
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeExtend/__init__.pyi (OCP.ShapeExtend)
+LOG:  Could not load cache for OCP.ShapeConstruct: OCP/ShapeConstruct/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeConstruct
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeConstruct/__init__.pyi (OCP.ShapeConstruct)
+LOG:  Could not load cache for OCP.StepShape: OCP/StepShape/__init__.meta.json
+LOG:  Metadata not found for OCP.StepShape
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepShape/__init__.pyi (OCP.StepShape)
+LOG:  Could not load cache for OCP.Transfer: OCP/Transfer/__init__.meta.json
+LOG:  Metadata not found for OCP.Transfer
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Transfer/__init__.pyi (OCP.Transfer)
+LOG:  Could not load cache for OCP.StepData: OCP/StepData/__init__.meta.json
+LOG:  Metadata not found for OCP.StepData
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepData/__init__.pyi (OCP.StepData)
+LOG:  Could not load cache for OCP.StepGeom: OCP/StepGeom/__init__.meta.json
+LOG:  Metadata not found for OCP.StepGeom
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepGeom/__init__.pyi (OCP.StepGeom)
+LOG:  Could not load cache for OCP.StepRepr: OCP/StepRepr/__init__.meta.json
+LOG:  Metadata not found for OCP.StepRepr
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepRepr/__init__.pyi (OCP.StepRepr)
+LOG:  Could not load cache for OCP.XSControl: OCP/XSControl/__init__.meta.json
+LOG:  Metadata not found for OCP.XSControl
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/XSControl/__init__.pyi (OCP.XSControl)
+LOG:  Metadata fresh for OCP.Interface: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Interface/__init__.pyi
+LOG:  Could not load cache for OCP.TColGeom2d: OCP/TColGeom2d/__init__.meta.json
+LOG:  Metadata not found for OCP.TColGeom2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColGeom2d/__init__.pyi (OCP.TColGeom2d)
+LOG:  Metadata fresh for OCP.TColGeom: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColGeom/__init__.pyi
+LOG:  Metadata fresh for OCP.Image: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Image/__init__.pyi
+LOG:  Could not load cache for OCP.BOPDS: OCP/BOPDS/__init__.meta.json
+LOG:  Metadata not found for OCP.BOPDS
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BOPDS/__init__.pyi (OCP.BOPDS)
+LOG:  Could not load cache for OCP.IntTools: OCP/IntTools/__init__.meta.json
+LOG:  Metadata not found for OCP.IntTools
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntTools/__init__.pyi (OCP.IntTools)
+LOG:  Could not load cache for OCP.IntCurveSurface: OCP/IntCurveSurface/__init__.meta.json
+LOG:  Metadata not found for OCP.IntCurveSurface
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntCurveSurface/__init__.pyi (OCP.IntCurveSurface)
+LOG:  Could not load cache for OCP.IntCurvesFace: OCP/IntCurvesFace/__init__.meta.json
+LOG:  Metadata not found for OCP.IntCurvesFace
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntCurvesFace/__init__.pyi (OCP.IntCurvesFace)
+LOG:  Could not load cache for OCP.BRepAlgo: OCP/BRepAlgo/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepAlgo
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepAlgo/__init__.pyi (OCP.BRepAlgo)
+LOG:  Could not load cache for OCP.BOPTools: OCP/BOPTools/__init__.meta.json
+LOG:  Metadata not found for OCP.BOPTools
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BOPTools/__init__.pyi (OCP.BOPTools)
+LOG:  Metadata fresh for OCP.OpenGl: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/OpenGl/__init__.pyi
+LOG:  Metadata fresh for OCP.IFGraph: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IFGraph/__init__.pyi
+LOG:  Metadata fresh for OCP.IntRes2d: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntRes2d/__init__.pyi
+LOG:  Metadata fresh for OCP.Convert: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Convert/__init__.pyi
+LOG:  Metadata fresh for OCP.AppBlend: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AppBlend/__init__.pyi
+LOG:  Metadata fresh for _warnings: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/_warnings.pyi
+LOG:  Metadata fresh for posix: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/posix.pyi
+LOG:  Metadata fresh for os.path: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/os/path.pyi
+LOG:  Metadata fresh for codecs: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/codecs.pyi
+LOG:  Metadata fresh for mmap: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/mmap.pyi
+LOG:  Metadata fresh for inspect: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/inspect.pyi
+LOG:  Could not load cache for OCP.HLRBRep: OCP/HLRBRep/__init__.meta.json
+LOG:  Metadata not found for OCP.HLRBRep
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HLRBRep/__init__.pyi (OCP.HLRBRep)
+LOG:  Metadata fresh for OCP.HLRAlgo: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HLRAlgo/__init__.pyi
+LOG:  Metadata fresh for xml.etree.cElementTree: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/xml/etree/cElementTree.pyi
+LOG:  Metadata fresh for xml: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/xml/__init__.pyi
+LOG:  Metadata fresh for xml.etree: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/xml/etree/__init__.pyi
+LOG:  Metadata fresh for cadquery.units: file /home/wink/prgs/CadQuery/forks/cadquery/cadquery/units.py
+LOG:  Could not load cache for OCP.GeomConvert: OCP/GeomConvert/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomConvert
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomConvert/__init__.pyi (OCP.GeomConvert)
+LOG:  Metadata fresh for collections.abc: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/collections/abc.pyi
+LOG:  Metadata fresh for importlib: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/importlib/__init__.pyi
+LOG:  Metadata fresh for OCP.Aspect: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Aspect/__init__.pyi
+LOG:  Metadata fresh for OCP.SelectMgr: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/SelectMgr/__init__.pyi
+LOG:  Metadata fresh for OCP.Quantity: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Quantity/__init__.pyi
+LOG:  Metadata fresh for OCP.OSD: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/OSD/__init__.pyi
+LOG:  Metadata fresh for OCP.Select3D: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Select3D/__init__.pyi
+LOG:  Metadata fresh for OCP.TShort: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TShort/__init__.pyi
+LOG:  Metadata fresh for OCP.Sweep: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Sweep/__init__.pyi
+LOG:  Metadata fresh for pyexpat.model: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/pyexpat/model.pyi
+LOG:  Metadata fresh for pyexpat.errors: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/pyexpat/errors.pyi
+LOG:  Could not load cache for OCP.Plate: OCP/Plate/__init__.meta.json
+LOG:  Metadata not found for OCP.Plate
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Plate/__init__.pyi (OCP.Plate)
+LOG:  Could not load cache for OCP.AdvApp2Var: OCP/AdvApp2Var/__init__.meta.json
+LOG:  Metadata not found for OCP.AdvApp2Var
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AdvApp2Var/__init__.pyi (OCP.AdvApp2Var)
+LOG:  Could not load cache for OCP.TopOpeBRepTool: OCP/TopOpeBRepTool/__init__.meta.json
+LOG:  Metadata not found for OCP.TopOpeBRepTool
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopOpeBRepTool/__init__.pyi (OCP.TopOpeBRepTool)
+LOG:  Could not load cache for OCP.TopOpeBRepDS: OCP/TopOpeBRepDS/__init__.meta.json
+LOG:  Metadata not found for OCP.TopOpeBRepDS
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopOpeBRepDS/__init__.pyi (OCP.TopOpeBRepDS)
+LOG:  Could not load cache for OCP.BRepBlend: OCP/BRepBlend/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepBlend
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepBlend/__init__.pyi (OCP.BRepBlend)
+LOG:  Could not load cache for OCP.IntSurf: OCP/IntSurf/__init__.meta.json
+LOG:  Metadata not found for OCP.IntSurf
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntSurf/__init__.pyi (OCP.IntSurf)
+LOG:  Could not load cache for OCP.StepBasic: OCP/StepBasic/__init__.meta.json
+LOG:  Metadata not found for OCP.StepBasic
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepBasic/__init__.pyi (OCP.StepBasic)
+LOG:  Could not load cache for OCP.IntPatch: OCP/IntPatch/__init__.meta.json
+LOG:  Metadata not found for OCP.IntPatch
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntPatch/__init__.pyi (OCP.IntPatch)
+LOG:  Could not load cache for OCP.GeomInt: OCP/GeomInt/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomInt
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomInt/__init__.pyi (OCP.GeomInt)
+LOG:  Could not load cache for OCP.Geom2dHatch: OCP/Geom2dHatch/__init__.meta.json
+LOG:  Metadata not found for OCP.Geom2dHatch
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2dHatch/__init__.pyi (OCP.Geom2dHatch)
+LOG:  Could not load cache for OCP.Intf: OCP/Intf/__init__.meta.json
+LOG:  Metadata not found for OCP.Intf
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Intf/__init__.pyi (OCP.Intf)
+LOG:  Metadata fresh for genericpath: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/genericpath.pyi
+LOG:  Metadata fresh for enum: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/3/enum.pyi
+LOG:  Could not load cache for OCP.HLRTopoBRep: OCP/HLRTopoBRep/__init__.meta.json
+LOG:  Metadata not found for OCP.HLRTopoBRep
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HLRTopoBRep/__init__.pyi (OCP.HLRTopoBRep)
+LOG:  Could not load cache for OCP.BRepTopAdaptor: OCP/BRepTopAdaptor/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepTopAdaptor
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepTopAdaptor/__init__.pyi (OCP.BRepTopAdaptor)
+LOG:  Metadata fresh for xml.etree.ElementTree: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/xml/etree/ElementTree.pyi
+LOG:  Metadata fresh for xml.parsers: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/xml/parsers/__init__.pyi
+LOG:  Metadata fresh for OCP.PrsMgr: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/PrsMgr/__init__.pyi
+LOG:  Metadata fresh for OCP.SelectBasics: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/SelectBasics/__init__.pyi
+LOG:  Metadata fresh for OCP.AIS: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AIS/__init__.pyi
+LOG:  Metadata fresh for OCP.V3d: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/V3d/__init__.pyi
+LOG:  Metadata fresh for OCP.Prs3d: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Prs3d/__init__.pyi
+LOG:  Metadata fresh for OCP.BVH: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BVH/__init__.pyi
+LOG:  Metadata fresh for pyexpat: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/pyexpat/__init__.pyi
+LOG:  Could not load cache for OCP.AdvApprox: OCP/AdvApprox/__init__.meta.json
+LOG:  Metadata not found for OCP.AdvApprox
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AdvApprox/__init__.pyi (OCP.AdvApprox)
+LOG:  Could not load cache for OCP.BlendFunc: OCP/BlendFunc/__init__.meta.json
+LOG:  Metadata not found for OCP.BlendFunc
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BlendFunc/__init__.pyi (OCP.BlendFunc)
+LOG:  Could not load cache for OCP.Blend: OCP/Blend/__init__.meta.json
+LOG:  Metadata not found for OCP.Blend
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Blend/__init__.pyi (OCP.Blend)
+LOG:  Metadata fresh for OCP.IntAna: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntAna/__init__.pyi
+LOG:  Metadata fresh for OCP.IntImp: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntImp/__init__.pyi
+LOG:  Could not load cache for OCP.Geom2dInt: OCP/Geom2dInt/__init__.meta.json
+LOG:  Metadata not found for OCP.Geom2dInt
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2dInt/__init__.pyi (OCP.Geom2dInt)
+LOG:  Could not load cache for OCP.HatchGen: OCP/HatchGen/__init__.meta.json
+LOG:  Metadata not found for OCP.HatchGen
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HatchGen/__init__.pyi (OCP.HatchGen)
+LOG:  Could not load cache for OCP.Contap: OCP/Contap/__init__.meta.json
+LOG:  Metadata not found for OCP.Contap
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Contap/__init__.pyi (OCP.Contap)
+LOG:  Metadata fresh for xml.parsers.expat: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/typeshed/stdlib/2and3/xml/parsers/expat/__init__.pyi
+LOG:  Metadata fresh for OCP.StdSelect: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StdSelect/__init__.pyi
+LOG:  Metadata fresh for OCP.DsgPrs: file /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/DsgPrs/__init__.pyi
+LOG:  Could not load cache for OCP.PLib: OCP/PLib/__init__.meta.json
+LOG:  Metadata not found for OCP.PLib
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/PLib/__init__.pyi (OCP.PLib)
+LOG:  Could not load cache for OCP.IntCurve: OCP/IntCurve/__init__.meta.json
+LOG:  Metadata not found for OCP.IntCurve
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntCurve/__init__.pyi (OCP.IntCurve)
+LOG:  Loaded graph with 196 nodes (1.903 sec)
+LOG:  Found 151 SCCs; largest has 20 nodes
+LOG:  Processing 40 queued fresh SCCs
+LOG:  Build finished in 2.341 seconds with 150 modules, and 0 errors
+Traceback (most recent call last):
+  File "/opt/miniconda3/envs/cq-dev/bin/mypy", line 8, in <module>
+    sys.exit(console_entry())
+  File "/opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/mypy/__main__.py", line 8, in console_entry
+    main(None, sys.stdout, sys.stderr)
+  File "mypy/main.py", line 89, in main
+  File "mypy/build.py", line 180, in build
+  File "mypy/build.py", line 252, in _build
+  File "mypy/build.py", line 2626, in dispatch
+  File "mypy/build.py", line 2942, in process_graph
+  File "mypy/build.py", line 3020, in process_fresh_modules
+  File "mypy/build.py", line 1955, in fix_cross_refs
+  File "mypy/fixup.py", line 25, in fixup_module
+  File "mypy/fixup.py", line 91, in visit_symbol_table
+  File "mypy/nodes.py", line 515, in accept
+  File "mypy/fixup.py", line 105, in visit_overloaded_func_def
+  File "mypy/types.py", line 1296, in accept
+  File "mypy/fixup.py", line 196, in visit_overloaded
+  File "mypy/types.py", line 1098, in accept
+  File "mypy/fixup.py", line 182, in visit_callable_type
+  File "mypy/types.py", line 1724, in accept
+  File "mypy/fixup.py", line 251, in visit_union_type
+  File "mypy/types.py", line 794, in accept
+  File "mypy/fixup.py", line 153, in visit_instance
+  File "mypy/fixup.py", line 262, in lookup_qualified_typeinfo
+  File "mypy/fixup.py", line 290, in lookup_qualified
+  File "mypy/fixup.py", line 299, in lookup_qualified_stnode
+  File "mypy/lookup.py", line 47, in lookup_fully_qualified
+AssertionError: Cannot find component 'Message' for 'OCP.Message.Message_ProgressIndicator'

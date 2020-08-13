@@ -1,0 +1,1150 @@
+
+LOG:  Mypy Version:           0.790+dev.0dfac58ede61f7c4a92f55ffe5f527fa6781fab2.dirty
+LOG:  Config File:            Default
+LOG:  Source Path:            workplane.py
+LOG:  Configured Executable:  /opt/miniconda3/envs/cq-dev/bin/python3.7
+LOG:  Current Executable:     /opt/miniconda3/envs/cq-dev/bin/python3.7
+LOG:  Cache Dir:              .mypy_cache
+LOG:  Compiled:               False
+LOG:  Metadata abandoned for workplane: new attributes are missing
+LOG:  Metadata not found for workplane
+LOG:  Parsing workplane.py (workplane)
+LOG:  Metadata abandoned for cadquery: new attributes are missing
+LOG:  Metadata not found for cadquery
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/__init__.py (cadquery)
+LOG:  Metadata abandoned for builtins: new attributes are missing
+LOG:  Metadata not found for builtins
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/builtins.pyi (builtins)
+LOG:  Metadata abandoned for cadquery.occ_impl.geom: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.geom
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/geom.py (cadquery.occ_impl.geom)
+LOG:  Metadata abandoned for cadquery.occ_impl.shapes: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.shapes
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/shapes.py (cadquery.occ_impl.shapes)
+LOG:  Metadata abandoned for cadquery.occ_impl: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/__init__.py (cadquery.occ_impl)
+LOG:  Metadata abandoned for cadquery.occ_impl.exporters: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.exporters
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/__init__.py (cadquery.occ_impl.exporters)
+LOG:  Metadata abandoned for cadquery.occ_impl.importers: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.importers
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/importers.py (cadquery.occ_impl.importers)
+LOG:  Metadata abandoned for cadquery.selectors: new attributes are missing
+LOG:  Metadata not found for cadquery.selectors
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/selectors.py (cadquery.selectors)
+LOG:  Metadata abandoned for cadquery.cq: new attributes are missing
+LOG:  Metadata not found for cadquery.cq
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/cq.py (cadquery.cq)
+LOG:  Metadata abandoned for cadquery.plugins: new attributes are missing
+LOG:  Metadata not found for cadquery.plugins
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/plugins/__init__.py (cadquery.plugins)
+LOG:  Metadata abandoned for sys: new attributes are missing
+LOG:  Metadata not found for sys
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/sys.pyi (sys)
+LOG:  Could not load cache for _typeshed: _typeshed/__init__.meta.json
+LOG:  Metadata not found for _typeshed
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/_typeshed/__init__.pyi (_typeshed)
+LOG:  Metadata abandoned for abc: new attributes are missing
+LOG:  Metadata not found for abc
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/abc.pyi (abc)
+LOG:  Metadata abandoned for ast: new attributes are missing
+LOG:  Metadata not found for ast
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/ast.pyi (ast)
+LOG:  Metadata abandoned for io: new attributes are missing
+LOG:  Metadata not found for io
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/io.pyi (io)
+LOG:  Metadata abandoned for types: new attributes are missing
+LOG:  Metadata not found for types
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/types.pyi (types)
+LOG:  Metadata abandoned for typing: new attributes are missing
+LOG:  Metadata not found for typing
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/typing.pyi (typing)
+LOG:  Metadata abandoned for typing_extensions: new attributes are missing
+LOG:  Metadata not found for typing_extensions
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/third_party/2and3/typing_extensions.pyi (typing_extensions)
+LOG:  Metadata abandoned for math: new attributes are missing
+LOG:  Metadata not found for math
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/math.pyi (math)
+LOG:  Metadata abandoned for OCP.gp: new attributes are missing
+LOG:  Metadata not found for OCP.gp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/gp/__init__.pyi (OCP.gp)
+LOG:  Metadata abandoned for OCP.Bnd: new attributes are missing
+LOG:  Metadata not found for OCP.Bnd
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Bnd/__init__.pyi (OCP.Bnd)
+LOG:  Could not load cache for OCP.BRepBndLib: OCP/BRepBndLib/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepBndLib
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepBndLib/__init__.pyi (OCP.BRepBndLib)
+LOG:  Could not load cache for OCP.BRepMesh: OCP/BRepMesh/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepMesh
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepMesh/__init__.pyi (OCP.BRepMesh)
+LOG:  Metadata abandoned for OCP.TopoDS: new attributes are missing
+LOG:  Metadata not found for OCP.TopoDS
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopoDS/__init__.pyi (OCP.TopoDS)
+LOG:  Metadata abandoned for OCP.TopLoc: new attributes are missing
+LOG:  Metadata not found for OCP.TopLoc
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopLoc/__init__.pyi (OCP.TopLoc)
+LOG:  Metadata abandoned for OCP.TopAbs: new attributes are missing
+LOG:  Metadata not found for OCP.TopAbs
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopAbs/__init__.pyi (OCP.TopAbs)
+LOG:  Metadata abandoned for OCP: new attributes are missing
+LOG:  Metadata not found for OCP
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/__init__.pyi (OCP)
+LOG:  Metadata abandoned for OCP.GeomAbs: new attributes are missing
+LOG:  Metadata not found for OCP.GeomAbs
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomAbs/__init__.pyi (OCP.GeomAbs)
+LOG:  Metadata abandoned for OCP.TColgp: new attributes are missing
+LOG:  Metadata not found for OCP.TColgp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColgp/__init__.pyi (OCP.TColgp)
+LOG:  Could not load cache for OCP.BRepAdaptor: OCP/BRepAdaptor/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepAdaptor
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepAdaptor/__init__.pyi (OCP.BRepAdaptor)
+LOG:  Could not load cache for OCP.BRepBuilderAPI: OCP/BRepBuilderAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepBuilderAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepBuilderAPI/__init__.pyi (OCP.BRepBuilderAPI)
+LOG:  Could not load cache for OCP.GProp: OCP/GProp/__init__.meta.json
+LOG:  Metadata not found for OCP.GProp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GProp/__init__.pyi (OCP.GProp)
+LOG:  Could not load cache for OCP.BRepGProp: OCP/BRepGProp/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepGProp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepGProp/__init__.pyi (OCP.BRepGProp)
+LOG:  Could not load cache for OCP.BRepLProp: OCP/BRepLProp/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepLProp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepLProp/__init__.pyi (OCP.BRepLProp)
+LOG:  Could not load cache for OCP.BRepPrimAPI: OCP/BRepPrimAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepPrimAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepPrimAPI/__init__.pyi (OCP.BRepPrimAPI)
+LOG:  Could not load cache for OCP.TopExp: OCP/TopExp/__init__.meta.json
+LOG:  Metadata not found for OCP.TopExp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopExp/__init__.pyi (OCP.TopExp)
+LOG:  Could not load cache for OCP.BRep: OCP/BRep/__init__.meta.json
+LOG:  Metadata not found for OCP.BRep
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRep/__init__.pyi (OCP.BRep)
+LOG:  Could not load cache for OCP.GC: OCP/GC/__init__.meta.json
+LOG:  Metadata not found for OCP.GC
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GC/__init__.pyi (OCP.GC)
+LOG:  Could not load cache for OCP.GCE2d: OCP/GCE2d/__init__.meta.json
+LOG:  Metadata not found for OCP.GCE2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GCE2d/__init__.pyi (OCP.GCE2d)
+LOG:  Could not load cache for OCP.GeomAPI: OCP/GeomAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomAPI/__init__.pyi (OCP.GeomAPI)
+LOG:  Could not load cache for OCP.BRepFill: OCP/BRepFill/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepFill
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepFill/__init__.pyi (OCP.BRepFill)
+LOG:  Could not load cache for OCP.BRepAlgoAPI: OCP/BRepAlgoAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepAlgoAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepAlgoAPI/__init__.pyi (OCP.BRepAlgoAPI)
+LOG:  Metadata abandoned for OCP.Geom: new attributes are missing
+LOG:  Metadata not found for OCP.Geom
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom/__init__.pyi (OCP.Geom)
+LOG:  Metadata abandoned for OCP.Geom2d: new attributes are missing
+LOG:  Metadata not found for OCP.Geom2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2d/__init__.pyi (OCP.Geom2d)
+LOG:  Could not load cache for OCP.BRepLib: OCP/BRepLib/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepLib
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepLib/__init__.pyi (OCP.BRepLib)
+LOG:  Could not load cache for OCP.BRepOffsetAPI: OCP/BRepOffsetAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepOffsetAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepOffsetAPI/__init__.pyi (OCP.BRepOffsetAPI)
+LOG:  Could not load cache for OCP.BRepFilletAPI: OCP/BRepFilletAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepFilletAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepFilletAPI/__init__.pyi (OCP.BRepFilletAPI)
+LOG:  Metadata abandoned for OCP.TopTools: new attributes are missing
+LOG:  Metadata not found for OCP.TopTools
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopTools/__init__.pyi (OCP.TopTools)
+LOG:  Could not load cache for OCP.ShapeFix: OCP/ShapeFix/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeFix
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeFix/__init__.pyi (OCP.ShapeFix)
+LOG:  Could not load cache for OCP.STEPControl: OCP/STEPControl/__init__.meta.json
+LOG:  Metadata not found for OCP.STEPControl
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/STEPControl/__init__.pyi (OCP.STEPControl)
+LOG:  Could not load cache for OCP.StlAPI: OCP/StlAPI/__init__.meta.json
+LOG:  Metadata not found for OCP.StlAPI
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StlAPI/__init__.pyi (OCP.StlAPI)
+LOG:  Could not load cache for OCP.ShapeUpgrade: OCP/ShapeUpgrade/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeUpgrade
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeUpgrade/__init__.pyi (OCP.ShapeUpgrade)
+LOG:  Could not load cache for OCP.BRepTools: OCP/BRepTools/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepTools
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepTools/__init__.pyi (OCP.BRepTools)
+LOG:  Could not load cache for OCP.LocOpe: OCP/LocOpe/__init__.meta.json
+LOG:  Metadata not found for OCP.LocOpe
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/LocOpe/__init__.pyi (OCP.LocOpe)
+LOG:  Could not load cache for OCP.BRepCheck: OCP/BRepCheck/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepCheck
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepCheck/__init__.pyi (OCP.BRepCheck)
+LOG:  Metadata abandoned for OCP.Font: new attributes are missing
+LOG:  Metadata not found for OCP.Font
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Font/__init__.pyi (OCP.Font)
+LOG:  Could not load cache for OCP.BRepFeat: OCP/BRepFeat/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepFeat
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepFeat/__init__.pyi (OCP.BRepFeat)
+LOG:  Could not load cache for OCP.BRepClass3d: OCP/BRepClass3d/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepClass3d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepClass3d/__init__.pyi (OCP.BRepClass3d)
+LOG:  Metadata abandoned for OCP.TCollection: new attributes are missing
+LOG:  Metadata not found for OCP.TCollection
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TCollection/__init__.pyi (OCP.TCollection)
+LOG:  Could not load cache for OCP.BRepOffset: OCP/BRepOffset/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepOffset
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepOffset/__init__.pyi (OCP.BRepOffset)
+LOG:  Could not load cache for OCP.BOPAlgo: OCP/BOPAlgo/__init__.meta.json
+LOG:  Metadata not found for OCP.BOPAlgo
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BOPAlgo/__init__.pyi (OCP.BOPAlgo)
+LOG:  Metadata abandoned for OCP.IFSelect: new attributes are missing
+LOG:  Metadata not found for OCP.IFSelect
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IFSelect/__init__.pyi (OCP.IFSelect)
+LOG:  Could not load cache for OCP.ShapeAnalysis: OCP/ShapeAnalysis/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeAnalysis
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeAnalysis/__init__.pyi (OCP.ShapeAnalysis)
+LOG:  Could not load cache for OCP.GCPnts: OCP/GCPnts/__init__.meta.json
+LOG:  Metadata not found for OCP.GCPnts
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GCPnts/__init__.pyi (OCP.GCPnts)
+LOG:  Metadata abandoned for OCP.GeomFill: new attributes are missing
+LOG:  Metadata not found for OCP.GeomFill
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomFill/__init__.pyi (OCP.GeomFill)
+LOG:  Metadata abandoned for warnings: new attributes are missing
+LOG:  Metadata not found for warnings
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/warnings.pyi (warnings)
+LOG:  Metadata abandoned for cadquery.occ_impl.jupyter_tools: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.jupyter_tools
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/jupyter_tools.py (cadquery.occ_impl.jupyter_tools)
+LOG:  Metadata abandoned for tempfile: new attributes are missing
+LOG:  Metadata not found for tempfile
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/tempfile.pyi (tempfile)
+LOG:  Metadata abandoned for os: new attributes are missing
+LOG:  Metadata not found for os
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/os/__init__.pyi (os)
+LOG:  Metadata abandoned for cadquery.utils: new attributes are missing
+LOG:  Metadata not found for cadquery.utils
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/utils.py (cadquery.utils)
+LOG:  Metadata abandoned for cadquery.occ_impl.exporters.svg: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.exporters.svg
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/svg.py (cadquery.occ_impl.exporters.svg)
+LOG:  Metadata abandoned for cadquery.occ_impl.exporters.json: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.exporters.json
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/json.py (cadquery.occ_impl.exporters.json)
+LOG:  Metadata abandoned for cadquery.occ_impl.exporters.amf: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.exporters.amf
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/amf.py (cadquery.occ_impl.exporters.amf)
+LOG:  Metadata abandoned for cadquery.occ_impl.exporters.dxf: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.exporters.dxf
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/dxf.py (cadquery.occ_impl.exporters.dxf)
+LOG:  Metadata abandoned for cadquery.occ_impl.exporters.utils: new attributes are missing
+LOG:  Metadata not found for cadquery.occ_impl.exporters.utils
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/utils.py (cadquery.occ_impl.exporters.utils)
+LOG:  Metadata abandoned for collections: new attributes are missing
+LOG:  Metadata not found for collections
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/collections/__init__.pyi (collections)
+LOG:  Metadata abandoned for OCP.TColStd: new attributes are missing
+LOG:  Metadata not found for OCP.TColStd
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColStd/__init__.pyi (OCP.TColStd)
+LOG:  Metadata abandoned for functools: new attributes are missing
+LOG:  Metadata not found for functools
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/functools.pyi (functools)
+LOG:  Metadata abandoned for copy: new attributes are missing
+LOG:  Metadata not found for copy
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/copy.pyi (copy)
+LOG:  Metadata abandoned for itertools: new attributes are missing
+LOG:  Metadata not found for itertools
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/itertools.pyi (itertools)
+LOG:  Metadata abandoned for importlib.abc: new attributes are missing
+LOG:  Metadata not found for importlib.abc
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/importlib/abc.pyi (importlib.abc)
+LOG:  Could not load cache for array: array.meta.json
+LOG:  Metadata not found for array
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/array.pyi (array)
+LOG:  Metadata abandoned for mmap: new attributes are missing
+LOG:  Metadata not found for mmap
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/mmap.pyi (mmap)
+LOG:  Metadata abandoned for _ast: new attributes are missing
+LOG:  Metadata not found for _ast
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/_ast.pyi (_ast)
+LOG:  Metadata abandoned for codecs: new attributes are missing
+LOG:  Metadata not found for codecs
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/codecs.pyi (codecs)
+LOG:  Metadata abandoned for _importlib_modulespec: new attributes are missing
+LOG:  Metadata not found for _importlib_modulespec
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/_importlib_modulespec.pyi (_importlib_modulespec)
+LOG:  Metadata abandoned for OCP.NCollection: new attributes are missing
+LOG:  Metadata not found for OCP.NCollection
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/NCollection/__init__.pyi (OCP.NCollection)
+LOG:  Metadata abandoned for OCP.Standard: new attributes are missing
+LOG:  Metadata not found for OCP.Standard
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Standard/__init__.pyi (OCP.Standard)
+LOG:  Metadata abandoned for OCP.Graphic3d: new attributes are missing
+LOG:  Metadata not found for OCP.Graphic3d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Graphic3d/__init__.pyi (OCP.Graphic3d)
+LOG:  Metadata abandoned for OCP.Poly: new attributes are missing
+LOG:  Metadata not found for OCP.Poly
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Poly/__init__.pyi (OCP.Poly)
+LOG:  Metadata abandoned for OCP.Message: new attributes are missing
+LOG:  Metadata not found for OCP.Message
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Message/__init__.pyi (OCP.Message)
+LOG:  Metadata abandoned for OCP.Adaptor2d: new attributes are missing
+LOG:  Metadata not found for OCP.Adaptor2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Adaptor2d/__init__.pyi (OCP.Adaptor2d)
+LOG:  Metadata abandoned for OCP.Adaptor3d: new attributes are missing
+LOG:  Metadata not found for OCP.Adaptor3d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Adaptor3d/__init__.pyi (OCP.Adaptor3d)
+LOG:  Could not load cache for OCP.Geom2dAdaptor: OCP/Geom2dAdaptor/__init__.meta.json
+LOG:  Metadata not found for OCP.Geom2dAdaptor
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2dAdaptor/__init__.pyi (OCP.Geom2dAdaptor)
+LOG:  Could not load cache for OCP.GeomAdaptor: OCP/GeomAdaptor/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomAdaptor
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomAdaptor/__init__.pyi (OCP.GeomAdaptor)
+LOG:  Metadata abandoned for OCP.math: new attributes are missing
+LOG:  Metadata not found for OCP.math
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/math/__init__.pyi (OCP.math)
+LOG:  Could not load cache for OCP.BRepSweep: OCP/BRepSweep/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepSweep
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepSweep/__init__.pyi (OCP.BRepSweep)
+LOG:  Could not load cache for OCP.BRepPrim: OCP/BRepPrim/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepPrim
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepPrim/__init__.pyi (OCP.BRepPrim)
+LOG:  Metadata abandoned for OCP.gce: new attributes are missing
+LOG:  Metadata not found for OCP.gce
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/gce/__init__.pyi (OCP.gce)
+LOG:  Metadata abandoned for OCP.Approx: new attributes are missing
+LOG:  Metadata not found for OCP.Approx
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Approx/__init__.pyi (OCP.Approx)
+LOG:  Could not load cache for OCP.Extrema: OCP/Extrema/__init__.meta.json
+LOG:  Metadata not found for OCP.Extrema
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Extrema/__init__.pyi (OCP.Extrema)
+LOG:  Could not load cache for OCP.GeomLProp: OCP/GeomLProp/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomLProp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomLProp/__init__.pyi (OCP.GeomLProp)
+LOG:  Could not load cache for OCP.BRepMAT2d: OCP/BRepMAT2d/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepMAT2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepMAT2d/__init__.pyi (OCP.BRepMAT2d)
+LOG:  Could not load cache for OCP.Bisector: OCP/Bisector/__init__.meta.json
+LOG:  Metadata not found for OCP.Bisector
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Bisector/__init__.pyi (OCP.Bisector)
+LOG:  Metadata abandoned for OCP.MAT: new attributes are missing
+LOG:  Metadata not found for OCP.MAT
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/MAT/__init__.pyi (OCP.MAT)
+LOG:  Could not load cache for OCP.GeomPlate: OCP/GeomPlate/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomPlate
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomPlate/__init__.pyi (OCP.GeomPlate)
+LOG:  Metadata abandoned for OCP.AppCont: new attributes are missing
+LOG:  Metadata not found for OCP.AppCont
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AppCont/__init__.pyi (OCP.AppCont)
+LOG:  Metadata abandoned for OCP.AppParCurves: new attributes are missing
+LOG:  Metadata not found for OCP.AppParCurves
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AppParCurves/__init__.pyi (OCP.AppParCurves)
+LOG:  Metadata abandoned for OCP.Law: new attributes are missing
+LOG:  Metadata not found for OCP.Law
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Law/__init__.pyi (OCP.Law)
+LOG:  Could not load cache for OCP.Draft: OCP/Draft/__init__.meta.json
+LOG:  Metadata not found for OCP.Draft
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Draft/__init__.pyi (OCP.Draft)
+LOG:  Could not load cache for OCP.TopOpeBRepBuild: OCP/TopOpeBRepBuild/__init__.meta.json
+LOG:  Metadata not found for OCP.TopOpeBRepBuild
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopOpeBRepBuild/__init__.pyi (OCP.TopOpeBRepBuild)
+LOG:  Could not load cache for OCP.ChFiDS: OCP/ChFiDS/__init__.meta.json
+LOG:  Metadata not found for OCP.ChFiDS
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ChFiDS/__init__.pyi (OCP.ChFiDS)
+LOG:  Could not load cache for OCP.ChFi3d: OCP/ChFi3d/__init__.meta.json
+LOG:  Metadata not found for OCP.ChFi3d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ChFi3d/__init__.pyi (OCP.ChFi3d)
+LOG:  Could not load cache for OCP.ChFi2d: OCP/ChFi2d/__init__.meta.json
+LOG:  Metadata not found for OCP.ChFi2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ChFi2d/__init__.pyi (OCP.ChFi2d)
+LOG:  Could not load cache for OCP.ShapeBuild: OCP/ShapeBuild/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeBuild
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeBuild/__init__.pyi (OCP.ShapeBuild)
+LOG:  Could not load cache for OCP.ShapeExtend: OCP/ShapeExtend/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeExtend
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeExtend/__init__.pyi (OCP.ShapeExtend)
+LOG:  Could not load cache for OCP.ShapeConstruct: OCP/ShapeConstruct/__init__.meta.json
+LOG:  Metadata not found for OCP.ShapeConstruct
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeConstruct/__init__.pyi (OCP.ShapeConstruct)
+LOG:  Could not load cache for OCP.StepShape: OCP/StepShape/__init__.meta.json
+LOG:  Metadata not found for OCP.StepShape
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepShape/__init__.pyi (OCP.StepShape)
+LOG:  Could not load cache for OCP.Transfer: OCP/Transfer/__init__.meta.json
+LOG:  Metadata not found for OCP.Transfer
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Transfer/__init__.pyi (OCP.Transfer)
+LOG:  Could not load cache for OCP.StepData: OCP/StepData/__init__.meta.json
+LOG:  Metadata not found for OCP.StepData
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepData/__init__.pyi (OCP.StepData)
+LOG:  Could not load cache for OCP.StepGeom: OCP/StepGeom/__init__.meta.json
+LOG:  Metadata not found for OCP.StepGeom
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepGeom/__init__.pyi (OCP.StepGeom)
+LOG:  Could not load cache for OCP.StepRepr: OCP/StepRepr/__init__.meta.json
+LOG:  Metadata not found for OCP.StepRepr
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepRepr/__init__.pyi (OCP.StepRepr)
+LOG:  Could not load cache for OCP.XSControl: OCP/XSControl/__init__.meta.json
+LOG:  Metadata not found for OCP.XSControl
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/XSControl/__init__.pyi (OCP.XSControl)
+LOG:  Metadata abandoned for OCP.Interface: new attributes are missing
+LOG:  Metadata not found for OCP.Interface
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Interface/__init__.pyi (OCP.Interface)
+LOG:  Could not load cache for OCP.TColGeom2d: OCP/TColGeom2d/__init__.meta.json
+LOG:  Metadata not found for OCP.TColGeom2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColGeom2d/__init__.pyi (OCP.TColGeom2d)
+LOG:  Metadata abandoned for OCP.TColGeom: new attributes are missing
+LOG:  Metadata not found for OCP.TColGeom
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColGeom/__init__.pyi (OCP.TColGeom)
+LOG:  Metadata abandoned for OCP.Image: new attributes are missing
+LOG:  Metadata not found for OCP.Image
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Image/__init__.pyi (OCP.Image)
+LOG:  Could not load cache for OCP.BOPDS: OCP/BOPDS/__init__.meta.json
+LOG:  Metadata not found for OCP.BOPDS
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BOPDS/__init__.pyi (OCP.BOPDS)
+LOG:  Could not load cache for OCP.IntTools: OCP/IntTools/__init__.meta.json
+LOG:  Metadata not found for OCP.IntTools
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntTools/__init__.pyi (OCP.IntTools)
+LOG:  Could not load cache for OCP.IntCurveSurface: OCP/IntCurveSurface/__init__.meta.json
+LOG:  Metadata not found for OCP.IntCurveSurface
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntCurveSurface/__init__.pyi (OCP.IntCurveSurface)
+LOG:  Could not load cache for OCP.IntCurvesFace: OCP/IntCurvesFace/__init__.meta.json
+LOG:  Metadata not found for OCP.IntCurvesFace
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntCurvesFace/__init__.pyi (OCP.IntCurvesFace)
+LOG:  Could not load cache for OCP.BRepAlgo: OCP/BRepAlgo/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepAlgo
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepAlgo/__init__.pyi (OCP.BRepAlgo)
+LOG:  Could not load cache for OCP.BOPTools: OCP/BOPTools/__init__.meta.json
+LOG:  Metadata not found for OCP.BOPTools
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BOPTools/__init__.pyi (OCP.BOPTools)
+LOG:  Metadata abandoned for OCP.OpenGl: new attributes are missing
+LOG:  Metadata not found for OCP.OpenGl
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/OpenGl/__init__.pyi (OCP.OpenGl)
+LOG:  Metadata abandoned for OCP.IFGraph: new attributes are missing
+LOG:  Metadata not found for OCP.IFGraph
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IFGraph/__init__.pyi (OCP.IFGraph)
+LOG:  Metadata abandoned for OCP.IntRes2d: new attributes are missing
+LOG:  Metadata not found for OCP.IntRes2d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntRes2d/__init__.pyi (OCP.IntRes2d)
+LOG:  Metadata abandoned for OCP.Convert: new attributes are missing
+LOG:  Metadata not found for OCP.Convert
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Convert/__init__.pyi (OCP.Convert)
+LOG:  Metadata abandoned for OCP.AppBlend: new attributes are missing
+LOG:  Metadata not found for OCP.AppBlend
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AppBlend/__init__.pyi (OCP.AppBlend)
+LOG:  Metadata abandoned for _warnings: new attributes are missing
+LOG:  Metadata not found for _warnings
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/_warnings.pyi (_warnings)
+LOG:  Metadata abandoned for posix: new attributes are missing
+LOG:  Metadata not found for posix
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/posix.pyi (posix)
+LOG:  Metadata abandoned for os.path: new attributes are missing
+LOG:  Metadata not found for os.path
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/os/path.pyi (os.path)
+LOG:  Metadata abandoned for inspect: new attributes are missing
+LOG:  Metadata not found for inspect
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/inspect.pyi (inspect)
+LOG:  Could not load cache for OCP.HLRBRep: OCP/HLRBRep/__init__.meta.json
+LOG:  Metadata not found for OCP.HLRBRep
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HLRBRep/__init__.pyi (OCP.HLRBRep)
+LOG:  Metadata abandoned for OCP.HLRAlgo: new attributes are missing
+LOG:  Metadata not found for OCP.HLRAlgo
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HLRAlgo/__init__.pyi (OCP.HLRAlgo)
+LOG:  Metadata abandoned for xml.etree.cElementTree: new attributes are missing
+LOG:  Metadata not found for xml.etree.cElementTree
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/etree/cElementTree.pyi (xml.etree.cElementTree)
+LOG:  Metadata abandoned for xml: new attributes are missing
+LOG:  Metadata not found for xml
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/__init__.pyi (xml)
+LOG:  Metadata abandoned for xml.etree: new attributes are missing
+LOG:  Metadata not found for xml.etree
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/etree/__init__.pyi (xml.etree)
+LOG:  Metadata abandoned for cadquery.units: new attributes are missing
+LOG:  Metadata not found for cadquery.units
+LOG:  Parsing /home/wink/prgs/CadQuery/forks/cadquery/cadquery/units.py (cadquery.units)
+LOG:  Could not load cache for OCP.GeomConvert: OCP/GeomConvert/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomConvert
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomConvert/__init__.pyi (OCP.GeomConvert)
+LOG:  Metadata abandoned for importlib: new attributes are missing
+LOG:  Metadata not found for importlib
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/importlib/__init__.pyi (importlib)
+LOG:  Metadata abandoned for OCP.Aspect: new attributes are missing
+LOG:  Metadata not found for OCP.Aspect
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Aspect/__init__.pyi (OCP.Aspect)
+LOG:  Metadata abandoned for OCP.SelectMgr: new attributes are missing
+LOG:  Metadata not found for OCP.SelectMgr
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/SelectMgr/__init__.pyi (OCP.SelectMgr)
+LOG:  Metadata abandoned for OCP.Quantity: new attributes are missing
+LOG:  Metadata not found for OCP.Quantity
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Quantity/__init__.pyi (OCP.Quantity)
+LOG:  Metadata abandoned for OCP.OSD: new attributes are missing
+LOG:  Metadata not found for OCP.OSD
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/OSD/__init__.pyi (OCP.OSD)
+LOG:  Metadata abandoned for OCP.Select3D: new attributes are missing
+LOG:  Metadata not found for OCP.Select3D
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Select3D/__init__.pyi (OCP.Select3D)
+LOG:  Metadata abandoned for OCP.TShort: new attributes are missing
+LOG:  Metadata not found for OCP.TShort
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TShort/__init__.pyi (OCP.TShort)
+LOG:  Metadata abandoned for OCP.Sweep: new attributes are missing
+LOG:  Metadata not found for OCP.Sweep
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Sweep/__init__.pyi (OCP.Sweep)
+LOG:  Could not load cache for OCP.Plate: OCP/Plate/__init__.meta.json
+LOG:  Metadata not found for OCP.Plate
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Plate/__init__.pyi (OCP.Plate)
+LOG:  Could not load cache for OCP.AdvApp2Var: OCP/AdvApp2Var/__init__.meta.json
+LOG:  Metadata not found for OCP.AdvApp2Var
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AdvApp2Var/__init__.pyi (OCP.AdvApp2Var)
+LOG:  Could not load cache for OCP.TopOpeBRepTool: OCP/TopOpeBRepTool/__init__.meta.json
+LOG:  Metadata not found for OCP.TopOpeBRepTool
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopOpeBRepTool/__init__.pyi (OCP.TopOpeBRepTool)
+LOG:  Could not load cache for OCP.TopOpeBRepDS: OCP/TopOpeBRepDS/__init__.meta.json
+LOG:  Metadata not found for OCP.TopOpeBRepDS
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopOpeBRepDS/__init__.pyi (OCP.TopOpeBRepDS)
+LOG:  Could not load cache for OCP.BRepBlend: OCP/BRepBlend/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepBlend
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepBlend/__init__.pyi (OCP.BRepBlend)
+LOG:  Could not load cache for OCP.IntSurf: OCP/IntSurf/__init__.meta.json
+LOG:  Metadata not found for OCP.IntSurf
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntSurf/__init__.pyi (OCP.IntSurf)
+LOG:  Could not load cache for OCP.StepBasic: OCP/StepBasic/__init__.meta.json
+LOG:  Metadata not found for OCP.StepBasic
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepBasic/__init__.pyi (OCP.StepBasic)
+LOG:  Could not load cache for OCP.IntPatch: OCP/IntPatch/__init__.meta.json
+LOG:  Metadata not found for OCP.IntPatch
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntPatch/__init__.pyi (OCP.IntPatch)
+LOG:  Could not load cache for OCP.GeomInt: OCP/GeomInt/__init__.meta.json
+LOG:  Metadata not found for OCP.GeomInt
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomInt/__init__.pyi (OCP.GeomInt)
+LOG:  Could not load cache for OCP.Geom2dHatch: OCP/Geom2dHatch/__init__.meta.json
+LOG:  Metadata not found for OCP.Geom2dHatch
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2dHatch/__init__.pyi (OCP.Geom2dHatch)
+LOG:  Could not load cache for OCP.Intf: OCP/Intf/__init__.meta.json
+LOG:  Metadata not found for OCP.Intf
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Intf/__init__.pyi (OCP.Intf)
+LOG:  Metadata abandoned for genericpath: new attributes are missing
+LOG:  Metadata not found for genericpath
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/genericpath.pyi (genericpath)
+LOG:  Metadata abandoned for enum: new attributes are missing
+LOG:  Metadata not found for enum
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/enum.pyi (enum)
+LOG:  Could not load cache for OCP.HLRTopoBRep: OCP/HLRTopoBRep/__init__.meta.json
+LOG:  Metadata not found for OCP.HLRTopoBRep
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HLRTopoBRep/__init__.pyi (OCP.HLRTopoBRep)
+LOG:  Could not load cache for OCP.BRepTopAdaptor: OCP/BRepTopAdaptor/__init__.meta.json
+LOG:  Metadata not found for OCP.BRepTopAdaptor
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepTopAdaptor/__init__.pyi (OCP.BRepTopAdaptor)
+LOG:  Metadata abandoned for xml.etree.ElementTree: new attributes are missing
+LOG:  Metadata not found for xml.etree.ElementTree
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/etree/ElementTree.pyi (xml.etree.ElementTree)
+LOG:  Metadata abandoned for xml.parsers: new attributes are missing
+LOG:  Metadata not found for xml.parsers
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/parsers/__init__.pyi (xml.parsers)
+LOG:  Metadata abandoned for OCP.PrsMgr: new attributes are missing
+LOG:  Metadata not found for OCP.PrsMgr
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/PrsMgr/__init__.pyi (OCP.PrsMgr)
+LOG:  Metadata abandoned for OCP.SelectBasics: new attributes are missing
+LOG:  Metadata not found for OCP.SelectBasics
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/SelectBasics/__init__.pyi (OCP.SelectBasics)
+LOG:  Metadata abandoned for OCP.AIS: new attributes are missing
+LOG:  Metadata not found for OCP.AIS
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AIS/__init__.pyi (OCP.AIS)
+LOG:  Metadata abandoned for OCP.V3d: new attributes are missing
+LOG:  Metadata not found for OCP.V3d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/V3d/__init__.pyi (OCP.V3d)
+LOG:  Metadata abandoned for OCP.Prs3d: new attributes are missing
+LOG:  Metadata not found for OCP.Prs3d
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Prs3d/__init__.pyi (OCP.Prs3d)
+LOG:  Metadata abandoned for OCP.BVH: new attributes are missing
+LOG:  Metadata not found for OCP.BVH
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BVH/__init__.pyi (OCP.BVH)
+LOG:  Could not load cache for OCP.AdvApprox: OCP/AdvApprox/__init__.meta.json
+LOG:  Metadata not found for OCP.AdvApprox
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AdvApprox/__init__.pyi (OCP.AdvApprox)
+LOG:  Could not load cache for OCP.BlendFunc: OCP/BlendFunc/__init__.meta.json
+LOG:  Metadata not found for OCP.BlendFunc
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BlendFunc/__init__.pyi (OCP.BlendFunc)
+LOG:  Could not load cache for OCP.Blend: OCP/Blend/__init__.meta.json
+LOG:  Metadata not found for OCP.Blend
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Blend/__init__.pyi (OCP.Blend)
+LOG:  Metadata abandoned for OCP.IntAna: new attributes are missing
+LOG:  Metadata not found for OCP.IntAna
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntAna/__init__.pyi (OCP.IntAna)
+LOG:  Metadata abandoned for OCP.IntImp: new attributes are missing
+LOG:  Metadata not found for OCP.IntImp
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntImp/__init__.pyi (OCP.IntImp)
+LOG:  Could not load cache for OCP.Geom2dInt: OCP/Geom2dInt/__init__.meta.json
+LOG:  Metadata not found for OCP.Geom2dInt
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2dInt/__init__.pyi (OCP.Geom2dInt)
+LOG:  Could not load cache for OCP.HatchGen: OCP/HatchGen/__init__.meta.json
+LOG:  Metadata not found for OCP.HatchGen
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HatchGen/__init__.pyi (OCP.HatchGen)
+LOG:  Could not load cache for OCP.Contap: OCP/Contap/__init__.meta.json
+LOG:  Metadata not found for OCP.Contap
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Contap/__init__.pyi (OCP.Contap)
+LOG:  Metadata abandoned for xml.parsers.expat: new attributes are missing
+LOG:  Metadata not found for xml.parsers.expat
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/parsers/expat/__init__.pyi (xml.parsers.expat)
+LOG:  Metadata abandoned for OCP.StdSelect: new attributes are missing
+LOG:  Metadata not found for OCP.StdSelect
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StdSelect/__init__.pyi (OCP.StdSelect)
+LOG:  Metadata abandoned for OCP.DsgPrs: new attributes are missing
+LOG:  Metadata not found for OCP.DsgPrs
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/DsgPrs/__init__.pyi (OCP.DsgPrs)
+LOG:  Could not load cache for OCP.PLib: OCP/PLib/__init__.meta.json
+LOG:  Metadata not found for OCP.PLib
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/PLib/__init__.pyi (OCP.PLib)
+LOG:  Could not load cache for OCP.IntCurve: OCP/IntCurve/__init__.meta.json
+LOG:  Metadata not found for OCP.IntCurve
+LOG:  Parsing /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntCurve/__init__.pyi (OCP.IntCurve)
+LOG:  Metadata abandoned for pyexpat: new attributes are missing
+LOG:  Metadata not found for pyexpat
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/pyexpat/__init__.pyi (pyexpat)
+LOG:  Metadata abandoned for pyexpat.errors: new attributes are missing
+LOG:  Metadata not found for pyexpat.errors
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/pyexpat/errors.pyi (pyexpat.errors)
+LOG:  Metadata abandoned for pyexpat.model: new attributes are missing
+LOG:  Metadata not found for pyexpat.model
+LOG:  Parsing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/pyexpat/model.pyi (pyexpat.model)
+LOG:  Loaded graph with 197 nodes (10.907 sec)
+LOG:  Found 152 SCCs; largest has 20 nodes
+LOG:  Processing SCC of size 20 (posix _importlib_modulespec _ast os typing_extensions typing types io ast abc _typeshed genericpath codecs mmap array importlib.abc collections os.path sys builtins) as inherently stale
+LOG:  Writing posix /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/posix.pyi posix.meta.json posix.data.json
+LOG:  Cached module posix has changed interface
+LOG:  Writing _importlib_modulespec /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/_importlib_modulespec.pyi _importlib_modulespec.meta.json _importlib_modulespec.data.json
+LOG:  Cached module _importlib_modulespec has changed interface
+LOG:  Writing _ast /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/_ast.pyi _ast.meta.json _ast.data.json
+LOG:  Cached module _ast has changed interface
+LOG:  Writing os /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/os/__init__.pyi os/__init__.meta.json os/__init__.data.json
+LOG:  Cached module os has changed interface
+LOG:  Writing typing_extensions /home/wink/prgs/python/clones/mypy/mypy/typeshed/third_party/2and3/typing_extensions.pyi typing_extensions.meta.json typing_extensions.data.json
+LOG:  Cached module typing_extensions has changed interface
+LOG:  Writing typing /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/typing.pyi typing.meta.json typing.data.json
+LOG:  Cached module typing has changed interface
+LOG:  Writing types /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/types.pyi types.meta.json types.data.json
+LOG:  Cached module types has changed interface
+LOG:  Writing io /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/io.pyi io.meta.json io.data.json
+LOG:  Cached module io has changed interface
+LOG:  Writing ast /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/ast.pyi ast.meta.json ast.data.json
+LOG:  Cached module ast has changed interface
+LOG:  Writing abc /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/abc.pyi abc.meta.json abc.data.json
+LOG:  Cached module abc has changed interface
+LOG:  Writing _typeshed /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/_typeshed/__init__.pyi _typeshed/__init__.meta.json _typeshed/__init__.data.json
+LOG:  Cached module _typeshed has changed interface
+LOG:  Writing genericpath /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/genericpath.pyi genericpath.meta.json genericpath.data.json
+LOG:  Cached module genericpath has changed interface
+LOG:  Writing codecs /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/codecs.pyi codecs.meta.json codecs.data.json
+LOG:  Cached module codecs has changed interface
+LOG:  Writing mmap /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/mmap.pyi mmap.meta.json mmap.data.json
+LOG:  Cached module mmap has changed interface
+LOG:  Writing array /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/array.pyi array.meta.json array.data.json
+LOG:  Cached module array has changed interface
+LOG:  Writing importlib.abc /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/importlib/abc.pyi importlib/abc.meta.json importlib/abc.data.json
+LOG:  Cached module importlib.abc has changed interface
+LOG:  Writing collections /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/collections/__init__.pyi collections/__init__.meta.json collections/__init__.data.json
+LOG:  Cached module collections has changed interface
+LOG:  Writing os.path /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/os/path.pyi os/path.meta.json os/path.data.json
+LOG:  Cached module os.path has changed interface
+LOG:  Writing sys /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/sys.pyi sys.meta.json sys.data.json
+LOG:  Cached module sys has changed interface
+LOG:  Writing builtins /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/builtins.pyi builtins.meta.json builtins.data.json
+LOG:  Cached module builtins has changed interface
+LOG:  Processing SCC singleton (pyexpat.model) as inherently stale with stale deps (builtins)
+LOG:  Writing pyexpat.model /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/pyexpat/model.pyi pyexpat/model.meta.json pyexpat/model.data.json
+LOG:  Cached module pyexpat.model has changed interface
+LOG:  Processing SCC singleton (pyexpat.errors) as inherently stale with stale deps (builtins sys typing)
+LOG:  Writing pyexpat.errors /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/pyexpat/errors.pyi pyexpat/errors.meta.json pyexpat/errors.data.json
+LOG:  Cached module pyexpat.errors has changed interface
+LOG:  Processing SCC singleton (xml.etree.ElementTree) as inherently stale with stale deps (_typeshed builtins sys typing typing_extensions)
+LOG:  Writing xml.etree.ElementTree /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/etree/ElementTree.pyi xml/etree/ElementTree.meta.json xml/etree/ElementTree.data.json
+LOG:  Cached module xml.etree.ElementTree has changed interface
+LOG:  Processing SCC singleton (enum) as inherently stale with stale deps (abc builtins sys typing)
+LOG:  Writing enum /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/enum.pyi enum.meta.json enum.data.json
+LOG:  Cached module enum has changed interface
+LOG:  Processing SCC singleton (importlib) as inherently stale with stale deps (builtins importlib.abc types typing)
+LOG:  Writing importlib /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/importlib/__init__.pyi importlib/__init__.meta.json importlib/__init__.data.json
+LOG:  Cached module importlib has changed interface
+LOG:  Processing SCC singleton (xml.etree) as inherently stale with stale deps (builtins)
+LOG:  Writing xml.etree /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/etree/__init__.pyi xml/etree/__init__.meta.json xml/etree/__init__.data.json
+LOG:  Cached module xml.etree has changed interface
+LOG:  Processing SCC singleton (_warnings) as inherently stale with stale deps (builtins sys typing)
+LOG:  Writing _warnings /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/_warnings.pyi _warnings.meta.json _warnings.data.json
+LOG:  Cached module _warnings has changed interface
+LOG:  Processing SCC singleton (itertools) as inherently stale with stale deps (builtins sys typing typing_extensions)
+LOG:  Writing itertools /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/itertools.pyi itertools.meta.json itertools.data.json
+LOG:  Cached module itertools has changed interface
+LOG:  Processing SCC singleton (copy) as inherently stale with stale deps (builtins typing)
+LOG:  Writing copy /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/copy.pyi copy.meta.json copy.data.json
+LOG:  Cached module copy has changed interface
+LOG:  Processing SCC singleton (functools) as inherently stale with stale deps (builtins sys typing)
+LOG:  Writing functools /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/functools.pyi functools.meta.json functools.data.json
+LOG:  Cached module functools has changed interface
+LOG:  Processing SCC singleton (cadquery.occ_impl.exporters.json) as inherently stale with stale deps (builtins)
+LOG:  Writing cadquery.occ_impl.exporters.json /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/json.py cadquery/occ_impl/exporters/json.meta.json cadquery/occ_impl/exporters/json.data.json
+LOG:  Cached module cadquery.occ_impl.exporters.json has changed interface
+LOG:  Processing SCC singleton (tempfile) as inherently stale with stale deps (builtins os sys types typing typing_extensions)
+LOG:  Writing tempfile /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/tempfile.pyi tempfile.meta.json tempfile.data.json
+LOG:  Cached module tempfile has changed interface
+LOG:  Processing SCC singleton (OCP) as inherently stale with stale deps (builtins typing)
+LOG:  Writing OCP /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/__init__.pyi OCP/__init__.meta.json OCP/__init__.data.json
+LOG:  Cached module OCP has changed interface
+LOG:  Processing SCC singleton (math) as inherently stale with stale deps (builtins sys typing)
+LOG:  Writing math /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/math.pyi math.meta.json math.data.json
+LOG:  Cached module math has changed interface
+LOG:  Processing SCC singleton (cadquery.plugins) as inherently stale with stale deps (builtins)
+LOG:  Writing cadquery.plugins /home/wink/prgs/CadQuery/forks/cadquery/cadquery/plugins/__init__.py cadquery/plugins/__init__.meta.json cadquery/plugins/__init__.data.json
+LOG:  Cached module cadquery.plugins has changed interface
+LOG:  Processing SCC singleton (cadquery.occ_impl) as inherently stale with stale deps (builtins)
+LOG:  Writing cadquery.occ_impl /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/__init__.py cadquery/occ_impl/__init__.meta.json cadquery/occ_impl/__init__.data.json
+LOG:  Cached module cadquery.occ_impl has changed interface
+LOG:  Processing SCC singleton (pyexpat) as inherently stale with stale deps (_typeshed builtins pyexpat.errors pyexpat.model typing)
+LOG:  Writing pyexpat /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/pyexpat/__init__.pyi pyexpat/__init__.meta.json pyexpat/__init__.data.json
+LOG:  Cached module pyexpat has changed interface
+LOG:  Processing SCC singleton (cadquery.units) as inherently stale with stale deps (builtins math)
+LOG:  Writing cadquery.units /home/wink/prgs/CadQuery/forks/cadquery/cadquery/units.py cadquery/units.meta.json cadquery/units.data.json
+LOG:  Cached module cadquery.units has changed interface
+LOG:  Processing SCC singleton (xml.etree.cElementTree) as inherently stale with stale deps (builtins xml.etree.ElementTree)
+LOG:  Writing xml.etree.cElementTree /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/etree/cElementTree.pyi xml/etree/cElementTree.meta.json xml/etree/cElementTree.data.json
+LOG:  Cached module xml.etree.cElementTree has changed interface
+LOG:  Processing SCC singleton (inspect) as inherently stale with stale deps (builtins collections enum sys types typing typing_extensions)
+LOG:  Writing inspect /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/3/inspect.pyi inspect.meta.json inspect.data.json
+LOG:  Cached module inspect has changed interface
+LOG:  Processing SCC singleton (warnings) as inherently stale with stale deps (_warnings builtins sys types typing typing_extensions)
+LOG:  Writing warnings /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/warnings.pyi warnings.meta.json warnings.data.json
+LOG:  Cached module warnings has changed interface
+LOG:  Processing SCC of size 2 (OCP.Standard OCP.TCollection) as inherently stale with stale deps (OCP builtins typing)
+LOG:  Writing OCP.Standard /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Standard/__init__.pyi OCP/Standard/__init__.meta.json OCP/Standard/__init__.data.json
+LOG:  Cached module OCP.Standard has changed interface
+LOG:  Writing OCP.TCollection /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TCollection/__init__.pyi OCP/TCollection/__init__.meta.json OCP/TCollection/__init__.data.json
+LOG:  Cached module OCP.TCollection has changed interface
+LOG:  Processing SCC singleton (OCP.GeomAbs) as inherently stale with stale deps (OCP builtins typing)
+LOG:  Writing OCP.GeomAbs /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomAbs/__init__.pyi OCP/GeomAbs/__init__.meta.json OCP/GeomAbs/__init__.data.json
+LOG:  Cached module OCP.GeomAbs has changed interface
+LOG:  Processing SCC singleton (OCP.TopAbs) as inherently stale with stale deps (OCP builtins typing)
+LOG:  Writing OCP.TopAbs /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopAbs/__init__.pyi OCP/TopAbs/__init__.meta.json OCP/TopAbs/__init__.data.json
+LOG:  Cached module OCP.TopAbs has changed interface
+LOG:  Processing SCC singleton (xml.parsers.expat) as inherently stale with stale deps (builtins pyexpat)
+LOG:  Writing xml.parsers.expat /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/parsers/expat/__init__.pyi xml/parsers/expat/__init__.meta.json xml/parsers/expat/__init__.data.json
+LOG:  Cached module xml.parsers.expat has changed interface
+LOG:  Processing SCC singleton (OCP.BVH) as inherently stale with stale deps (OCP OCP.Standard builtins typing)
+LOG:  Writing OCP.BVH /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BVH/__init__.pyi OCP/BVH/__init__.meta.json OCP/BVH/__init__.data.json
+LOG:  Cached module OCP.BVH has changed interface
+LOG:  Processing SCC singleton (OCP.Sweep) as inherently stale with stale deps (OCP OCP.TopAbs builtins typing)
+LOG:  Writing OCP.Sweep /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Sweep/__init__.pyi OCP/Sweep/__init__.meta.json OCP/Sweep/__init__.data.json
+LOG:  Cached module OCP.Sweep has changed interface
+LOG:  Processing SCC singleton (cadquery.utils) as inherently stale with stale deps (builtins functools inspect warnings)
+LOG:  Writing cadquery.utils /home/wink/prgs/CadQuery/forks/cadquery/cadquery/utils.py cadquery/utils.meta.json cadquery/utils.data.json
+LOG:  Cached module cadquery.utils has changed interface
+LOG:  Processing SCC of size 3 (OCP.NCollection OCP.TColStd OCP.gp) as inherently stale with stale deps (OCP OCP.Standard OCP.TCollection builtins typing)
+LOG:  Writing OCP.NCollection /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/NCollection/__init__.pyi OCP/NCollection/__init__.meta.json OCP/NCollection/__init__.data.json
+LOG:  Cached module OCP.NCollection has changed interface
+LOG:  Writing OCP.TColStd /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColStd/__init__.pyi OCP/TColStd/__init__.meta.json OCP/TColStd/__init__.data.json
+LOG:  Cached module OCP.TColStd has changed interface
+LOG:  Writing OCP.gp /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/gp/__init__.pyi OCP/gp/__init__.meta.json OCP/gp/__init__.data.json
+LOG:  Cached module OCP.gp has changed interface
+LOG:  Processing SCC singleton (OCP.IntImp) as inherently stale with stale deps (OCP OCP.gp builtins typing)
+LOG:  Writing OCP.IntImp /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntImp/__init__.pyi OCP/IntImp/__init__.meta.json OCP/IntImp/__init__.data.json
+LOG:  Cached module OCP.IntImp has changed interface
+LOG:  Processing SCC singleton (OCP.IntAna) as inherently stale with stale deps (OCP OCP.NCollection OCP.TColStd OCP.gp builtins typing)
+LOG:  Writing OCP.IntAna /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntAna/__init__.pyi OCP/IntAna/__init__.meta.json OCP/IntAna/__init__.data.json
+LOG:  Cached module OCP.IntAna has changed interface
+LOG:  Processing SCC singleton (OCP.TShort) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard builtins typing)
+LOG:  Writing OCP.TShort /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TShort/__init__.pyi OCP/TShort/__init__.meta.json OCP/TShort/__init__.data.json
+LOG:  Cached module OCP.TShort has changed interface
+LOG:  Processing SCC of size 2 (xml.parsers xml) as inherently stale with stale deps (builtins xml.parsers.expat)
+LOG:  Writing xml.parsers /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/parsers/__init__.pyi xml/parsers/__init__.meta.json xml/parsers/__init__.data.json
+LOG:  Cached module xml.parsers has changed interface
+LOG:  Writing xml /home/wink/prgs/python/clones/mypy/mypy/typeshed/stdlib/2and3/xml/__init__.pyi xml/__init__.meta.json xml/__init__.data.json
+LOG:  Cached module xml has changed interface
+LOG:  Processing SCC singleton (OCP.IntRes2d) as inherently stale with stale deps (OCP OCP.NCollection OCP.gp builtins typing)
+LOG:  Writing OCP.IntRes2d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntRes2d/__init__.pyi OCP/IntRes2d/__init__.meta.json OCP/IntRes2d/__init__.data.json
+LOG:  Cached module OCP.IntRes2d has changed interface
+LOG:  Processing SCC singleton (OCP.MAT) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard builtins typing)
+LOG:  Writing OCP.MAT /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/MAT/__init__.pyi OCP/MAT/__init__.meta.json OCP/MAT/__init__.data.json
+LOG:  Cached module OCP.MAT has changed interface
+LOG:  Processing SCC singleton (OCP.gce) as inherently stale with stale deps (OCP OCP.gp builtins typing)
+LOG:  Writing OCP.gce /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/gce/__init__.pyi OCP/gce/__init__.meta.json OCP/gce/__init__.data.json
+LOG:  Cached module OCP.gce has changed interface
+LOG:  Processing SCC singleton (OCP.math) as inherently stale with stale deps (OCP OCP.TColStd OCP.gp builtins typing)
+LOG:  Writing OCP.math /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/math/__init__.pyi OCP/math/__init__.meta.json OCP/math/__init__.data.json
+LOG:  Cached module OCP.math has changed interface
+LOG:  Processing SCC singleton (OCP.Message) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard OCP.TColStd OCP.TCollection builtins typing)
+LOG:  Writing OCP.Message /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Message/__init__.pyi OCP/Message/__init__.meta.json OCP/Message/__init__.data.json
+LOG:  Cached module OCP.Message has changed interface
+LOG:  Processing SCC singleton (OCP.TColgp) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard OCP.gp builtins typing)
+LOG:  Writing OCP.TColgp /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColgp/__init__.pyi OCP/TColgp/__init__.meta.json OCP/TColgp/__init__.data.json
+LOG:  Cached module OCP.TColgp has changed interface
+LOG:  Processing SCC singleton (OCP.TopLoc) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard OCP.gp builtins typing)
+LOG:  Writing OCP.TopLoc /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopLoc/__init__.pyi OCP/TopLoc/__init__.meta.json OCP/TopLoc/__init__.data.json
+LOG:  Cached module OCP.TopLoc has changed interface
+LOG:  Processing SCC singleton (OCP.IntCurve) as inherently stale with stale deps (OCP OCP.GeomAbs OCP.IntRes2d OCP.TColStd OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.IntCurve /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntCurve/__init__.pyi OCP/IntCurve/__init__.meta.json OCP/IntCurve/__init__.data.json
+LOG:  Cached module OCP.IntCurve has changed interface
+LOG:  Processing SCC singleton (OCP.PLib) as inherently stale with stale deps (OCP OCP.GeomAbs OCP.Standard OCP.TColStd OCP.TColgp OCP.math builtins typing)
+LOG:  Writing OCP.PLib /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/PLib/__init__.pyi OCP/PLib/__init__.meta.json OCP/PLib/__init__.data.json
+LOG:  Cached module OCP.PLib has changed interface
+LOG:  Processing SCC singleton (OCP.HatchGen) as inherently stale with stale deps (OCP OCP.IntRes2d OCP.NCollection OCP.TopAbs builtins typing)
+LOG:  Writing OCP.HatchGen /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HatchGen/__init__.pyi OCP/HatchGen/__init__.meta.json OCP/HatchGen/__init__.data.json
+LOG:  Cached module OCP.HatchGen has changed interface
+LOG:  Processing SCC singleton (OCP.Plate) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp OCP.gp builtins typing)
+LOG:  Writing OCP.Plate /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Plate/__init__.pyi OCP/Plate/__init__.meta.json OCP/Plate/__init__.data.json
+LOG:  Cached module OCP.Plate has changed interface
+LOG:  Processing SCC singleton (OCP.HLRAlgo) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp OCP.TopAbs OCP.gp builtins typing)
+LOG:  Writing OCP.HLRAlgo /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HLRAlgo/__init__.pyi OCP/HLRAlgo/__init__.meta.json OCP/HLRAlgo/__init__.data.json
+LOG:  Cached module OCP.HLRAlgo has changed interface
+LOG:  Processing SCC singleton (OCP.AppBlend) as inherently stale with stale deps (OCP OCP.TColStd OCP.TColgp builtins typing)
+LOG:  Writing OCP.AppBlend /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AppBlend/__init__.pyi OCP/AppBlend/__init__.meta.json OCP/AppBlend/__init__.data.json
+LOG:  Cached module OCP.AppBlend has changed interface
+LOG:  Processing SCC singleton (OCP.Convert) as inherently stale with stale deps (OCP OCP.NCollection OCP.TColStd OCP.TColgp OCP.gp builtins typing)
+LOG:  Writing OCP.Convert /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Convert/__init__.pyi OCP/Convert/__init__.meta.json OCP/Convert/__init__.data.json
+LOG:  Cached module OCP.Convert has changed interface
+LOG:  Processing SCC singleton (OCP.Interface) as inherently stale with stale deps (OCP OCP.Message OCP.NCollection OCP.Standard OCP.TColStd OCP.TCollection builtins typing)
+LOG:  Writing OCP.Interface /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Interface/__init__.pyi OCP/Interface/__init__.meta.json OCP/Interface/__init__.data.json
+LOG:  Cached module OCP.Interface has changed interface
+LOG:  Processing SCC singleton (OCP.AppParCurves) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.AppParCurves /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AppParCurves/__init__.pyi OCP/AppParCurves/__init__.meta.json OCP/AppParCurves/__init__.data.json
+LOG:  Cached module OCP.AppParCurves has changed interface
+LOG:  Processing SCC singleton (OCP.Poly) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp OCP.TShort OCP.gp builtins typing)
+LOG:  Writing OCP.Poly /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Poly/__init__.pyi OCP/Poly/__init__.meta.json OCP/Poly/__init__.data.json
+LOG:  Cached module OCP.Poly has changed interface
+LOG:  Processing SCC singleton (cadquery.occ_impl.exporters.amf) as inherently stale with stale deps (builtins xml xml.etree xml.etree.cElementTree)
+LOG:  Writing cadquery.occ_impl.exporters.amf /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/amf.py cadquery/occ_impl/exporters/amf.meta.json cadquery/occ_impl/exporters/amf.data.json
+LOG:  Cached module cadquery.occ_impl.exporters.amf has changed interface
+LOG:  Processing SCC singleton (OCP.Geom2d) as inherently stale with stale deps (OCP OCP.GeomAbs OCP.Standard OCP.TColStd OCP.TColgp OCP.gp builtins typing)
+LOG:  Writing OCP.Geom2d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2d/__init__.pyi OCP/Geom2d/__init__.meta.json OCP/Geom2d/__init__.data.json
+LOG:  Cached module OCP.Geom2d has changed interface
+LOG:  Processing SCC singleton (OCP.Geom) as inherently stale with stale deps (OCP OCP.GeomAbs OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp OCP.gp builtins typing)
+LOG:  Writing OCP.Geom /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom/__init__.pyi OCP/Geom/__init__.meta.json OCP/Geom/__init__.data.json
+LOG:  Cached module OCP.Geom has changed interface
+LOG:  Processing SCC singleton (OCP.GProp) as inherently stale with stale deps (OCP OCP.TColStd OCP.TColgp OCP.gp builtins typing)
+LOG:  Writing OCP.GProp /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GProp/__init__.pyi OCP/GProp/__init__.meta.json OCP/GProp/__init__.data.json
+LOG:  Cached module OCP.GProp has changed interface
+LOG:  Processing SCC singleton (OCP.TopoDS) as inherently stale with stale deps (OCP OCP.Message OCP.Standard OCP.TopAbs OCP.TopLoc builtins typing)
+LOG:  Writing OCP.TopoDS /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopoDS/__init__.pyi OCP/TopoDS/__init__.meta.json OCP/TopoDS/__init__.data.json
+LOG:  Cached module OCP.TopoDS has changed interface
+LOG:  Processing SCC singleton (OCP.AdvApprox) as inherently stale with stale deps (OCP OCP.GeomAbs OCP.PLib OCP.TColStd OCP.TColgp builtins typing)
+LOG:  Writing OCP.AdvApprox /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AdvApprox/__init__.pyi OCP/AdvApprox/__init__.meta.json OCP/AdvApprox/__init__.data.json
+LOG:  Cached module OCP.AdvApprox has changed interface
+LOG:  Processing SCC singleton (OCP.IFGraph) as inherently stale with stale deps (OCP OCP.Interface OCP.Standard OCP.TColStd builtins typing)
+LOG:  Writing OCP.IFGraph /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IFGraph/__init__.pyi OCP/IFGraph/__init__.meta.json OCP/IFGraph/__init__.data.json
+LOG:  Cached module OCP.IFGraph has changed interface
+LOG:  Processing SCC singleton (OCP.TColGeom) as inherently stale with stale deps (OCP OCP.Geom OCP.NCollection OCP.Standard builtins typing)
+LOG:  Writing OCP.TColGeom /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColGeom/__init__.pyi OCP/TColGeom/__init__.meta.json OCP/TColGeom/__init__.data.json
+LOG:  Cached module OCP.TColGeom has changed interface
+LOG:  Processing SCC singleton (OCP.TColGeom2d) as inherently stale with stale deps (OCP OCP.Geom2d OCP.NCollection OCP.Standard builtins typing)
+LOG:  Writing OCP.TColGeom2d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TColGeom2d/__init__.pyi OCP/TColGeom2d/__init__.meta.json OCP/TColGeom2d/__init__.data.json
+LOG:  Cached module OCP.TColGeom2d has changed interface
+LOG:  Processing SCC singleton (OCP.StepData) as inherently stale with stale deps (OCP OCP.Interface OCP.Message OCP.Standard OCP.TColStd OCP.TCollection builtins typing)
+LOG:  Writing OCP.StepData /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepData/__init__.pyi OCP/StepData/__init__.meta.json OCP/StepData/__init__.data.json
+LOG:  Cached module OCP.StepData has changed interface
+LOG:  Processing SCC singleton (OCP.Transfer) as inherently stale with stale deps (OCP OCP.Interface OCP.Message OCP.NCollection OCP.Standard OCP.TColStd builtins typing)
+LOG:  Writing OCP.Transfer /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Transfer/__init__.pyi OCP/Transfer/__init__.meta.json OCP/Transfer/__init__.data.json
+LOG:  Cached module OCP.Transfer has changed interface
+LOG:  Processing SCC singleton (OCP.AppCont) as inherently stale with stale deps (OCP OCP.AppParCurves OCP.TColgp builtins typing)
+LOG:  Writing OCP.AppCont /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AppCont/__init__.pyi OCP/AppCont/__init__.meta.json OCP/AppCont/__init__.data.json
+LOG:  Cached module OCP.AppCont has changed interface
+LOG:  Processing SCC singleton (OCP.Bisector) as inherently stale with stale deps (OCP OCP.Geom2d OCP.GeomAbs OCP.IntRes2d OCP.Standard OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.Bisector /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Bisector/__init__.pyi OCP/Bisector/__init__.meta.json OCP/Bisector/__init__.data.json
+LOG:  Cached module OCP.Bisector has changed interface
+LOG:  Processing SCC singleton (OCP.GeomLProp) as inherently stale with stale deps (OCP OCP.Geom OCP.GeomAbs OCP.gp builtins typing)
+LOG:  Writing OCP.GeomLProp /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomLProp/__init__.pyi OCP/GeomLProp/__init__.meta.json OCP/GeomLProp/__init__.data.json
+LOG:  Cached module OCP.GeomLProp has changed interface
+LOG:  Processing SCC singleton (OCP.Adaptor2d) as inherently stale with stale deps (OCP OCP.Geom2d OCP.GeomAbs OCP.Standard OCP.TColStd OCP.gp builtins typing)
+LOG:  Writing OCP.Adaptor2d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Adaptor2d/__init__.pyi OCP/Adaptor2d/__init__.meta.json OCP/Adaptor2d/__init__.data.json
+LOG:  Cached module OCP.Adaptor2d has changed interface
+LOG:  Processing SCC singleton (OCP.StlAPI) as inherently stale with stale deps (OCP OCP.TopoDS builtins typing)
+LOG:  Writing OCP.StlAPI /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StlAPI/__init__.pyi OCP/StlAPI/__init__.meta.json OCP/StlAPI/__init__.data.json
+LOG:  Cached module OCP.StlAPI has changed interface
+LOG:  Processing SCC singleton (OCP.GCE2d) as inherently stale with stale deps (OCP OCP.Geom2d OCP.gce OCP.gp builtins typing)
+LOG:  Writing OCP.GCE2d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GCE2d/__init__.pyi OCP/GCE2d/__init__.meta.json OCP/GCE2d/__init__.data.json
+LOG:  Cached module OCP.GCE2d has changed interface
+LOG:  Processing SCC singleton (OCP.GC) as inherently stale with stale deps (OCP OCP.Geom OCP.gce OCP.gp builtins typing)
+LOG:  Writing OCP.GC /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GC/__init__.pyi OCP/GC/__init__.meta.json OCP/GC/__init__.data.json
+LOG:  Cached module OCP.GC has changed interface
+LOG:  Processing SCC singleton (OCP.BRep) as inherently stale with stale deps (OCP OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.NCollection OCP.Poly OCP.Standard OCP.TopAbs OCP.TopLoc OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRep /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRep/__init__.pyi OCP/BRep/__init__.meta.json OCP/BRep/__init__.data.json
+LOG:  Cached module OCP.BRep has changed interface
+LOG:  Processing SCC of size 17 (OCP.DsgPrs OCP.StdSelect OCP.Prs3d OCP.V3d OCP.AIS OCP.SelectBasics OCP.PrsMgr OCP.Select3D OCP.OSD OCP.Quantity OCP.SelectMgr OCP.Aspect OCP.Image OCP.Graphic3d OCP.Font OCP.TopTools OCP.Bnd) as inherently stale with stale deps (OCP OCP.BVH OCP.Geom OCP.GeomAbs OCP.HLRAlgo OCP.Message OCP.NCollection OCP.Poly OCP.Standard OCP.TColStd OCP.TColgp OCP.TCollection OCP.TopAbs OCP.TopLoc OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.DsgPrs /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/DsgPrs/__init__.pyi OCP/DsgPrs/__init__.meta.json OCP/DsgPrs/__init__.data.json
+LOG:  Cached module OCP.DsgPrs has changed interface
+LOG:  Writing OCP.StdSelect /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StdSelect/__init__.pyi OCP/StdSelect/__init__.meta.json OCP/StdSelect/__init__.data.json
+LOG:  Cached module OCP.StdSelect has changed interface
+LOG:  Writing OCP.Prs3d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Prs3d/__init__.pyi OCP/Prs3d/__init__.meta.json OCP/Prs3d/__init__.data.json
+LOG:  Cached module OCP.Prs3d has changed interface
+LOG:  Writing OCP.V3d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/V3d/__init__.pyi OCP/V3d/__init__.meta.json OCP/V3d/__init__.data.json
+LOG:  Cached module OCP.V3d has changed interface
+LOG:  Writing OCP.AIS /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AIS/__init__.pyi OCP/AIS/__init__.meta.json OCP/AIS/__init__.data.json
+LOG:  Cached module OCP.AIS has changed interface
+LOG:  Writing OCP.SelectBasics /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/SelectBasics/__init__.pyi OCP/SelectBasics/__init__.meta.json OCP/SelectBasics/__init__.data.json
+LOG:  Cached module OCP.SelectBasics has changed interface
+LOG:  Writing OCP.PrsMgr /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/PrsMgr/__init__.pyi OCP/PrsMgr/__init__.meta.json OCP/PrsMgr/__init__.data.json
+LOG:  Cached module OCP.PrsMgr has changed interface
+LOG:  Writing OCP.Select3D /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Select3D/__init__.pyi OCP/Select3D/__init__.meta.json OCP/Select3D/__init__.data.json
+LOG:  Cached module OCP.Select3D has changed interface
+LOG:  Writing OCP.OSD /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/OSD/__init__.pyi OCP/OSD/__init__.meta.json OCP/OSD/__init__.data.json
+LOG:  Cached module OCP.OSD has changed interface
+LOG:  Writing OCP.Quantity /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Quantity/__init__.pyi OCP/Quantity/__init__.meta.json OCP/Quantity/__init__.data.json
+LOG:  Cached module OCP.Quantity has changed interface
+LOG:  Writing OCP.SelectMgr /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/SelectMgr/__init__.pyi OCP/SelectMgr/__init__.meta.json OCP/SelectMgr/__init__.data.json
+LOG:  Cached module OCP.SelectMgr has changed interface
+LOG:  Writing OCP.Aspect /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Aspect/__init__.pyi OCP/Aspect/__init__.meta.json OCP/Aspect/__init__.data.json
+LOG:  Cached module OCP.Aspect has changed interface
+LOG:  Writing OCP.Image /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Image/__init__.pyi OCP/Image/__init__.meta.json OCP/Image/__init__.data.json
+LOG:  Cached module OCP.Image has changed interface
+LOG:  Writing OCP.Graphic3d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Graphic3d/__init__.pyi OCP/Graphic3d/__init__.meta.json OCP/Graphic3d/__init__.data.json
+LOG:  Cached module OCP.Graphic3d has changed interface
+LOG:  Writing OCP.Font /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Font/__init__.pyi OCP/Font/__init__.meta.json OCP/Font/__init__.data.json
+LOG:  Cached module OCP.Font has changed interface
+LOG:  Writing OCP.TopTools /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopTools/__init__.pyi OCP/TopTools/__init__.meta.json OCP/TopTools/__init__.data.json
+LOG:  Cached module OCP.TopTools has changed interface
+LOG:  Writing OCP.Bnd /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Bnd/__init__.pyi OCP/Bnd/__init__.meta.json OCP/Bnd/__init__.data.json
+LOG:  Cached module OCP.Bnd has changed interface
+LOG:  Processing SCC singleton (OCP.Blend) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.GeomAbs OCP.NCollection OCP.TColStd OCP.TColgp OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.Blend /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Blend/__init__.pyi OCP/Blend/__init__.meta.json OCP/Blend/__init__.data.json
+LOG:  Cached module OCP.Blend has changed interface
+LOG:  Processing SCC singleton (OCP.Intf) as inherently stale with stale deps (OCP OCP.Bnd OCP.NCollection OCP.gp builtins typing)
+LOG:  Writing OCP.Intf /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Intf/__init__.pyi OCP/Intf/__init__.meta.json OCP/Intf/__init__.data.json
+LOG:  Cached module OCP.Intf has changed interface
+LOG:  Processing SCC singleton (OCP.StepBasic) as inherently stale with stale deps (OCP OCP.Interface OCP.Standard OCP.StepData OCP.TColStd OCP.TCollection builtins typing)
+LOG:  Writing OCP.StepBasic /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepBasic/__init__.pyi OCP/StepBasic/__init__.meta.json OCP/StepBasic/__init__.data.json
+LOG:  Cached module OCP.StepBasic has changed interface
+LOG:  Processing SCC singleton (OCP.AdvApp2Var) as inherently stale with stale deps (OCP OCP.AdvApprox OCP.Geom OCP.GeomAbs OCP.NCollection OCP.TColStd OCP.TColgp OCP.gp builtins typing)
+LOG:  Writing OCP.AdvApp2Var /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/AdvApp2Var/__init__.pyi OCP/AdvApp2Var/__init__.meta.json OCP/AdvApp2Var/__init__.data.json
+LOG:  Cached module OCP.AdvApp2Var has changed interface
+LOG:  Processing SCC singleton (OCP.OpenGl) as inherently stale with stale deps (OCP OCP.Aspect OCP.Bnd OCP.Font OCP.Geom OCP.Graphic3d OCP.Image OCP.Message OCP.NCollection OCP.Quantity OCP.Standard OCP.TColStd OCP.TCollection OCP.gp builtins typing)
+LOG:  Writing OCP.OpenGl /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/OpenGl/__init__.pyi OCP/OpenGl/__init__.meta.json OCP/OpenGl/__init__.data.json
+LOG:  Cached module OCP.OpenGl has changed interface
+LOG:  Processing SCC singleton (OCP.ShapeExtend) as inherently stale with stale deps (OCP OCP.Geom OCP.GeomAbs OCP.Message OCP.NCollection OCP.Standard OCP.TColGeom OCP.TColStd OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.ShapeExtend /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeExtend/__init__.pyi OCP/ShapeExtend/__init__.meta.json OCP/ShapeExtend/__init__.data.json
+LOG:  Cached module OCP.ShapeExtend has changed interface
+LOG:  Processing SCC singleton (OCP.ChFi2d) as inherently stale with stale deps (OCP OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.ChFi2d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ChFi2d/__init__.pyi OCP/ChFi2d/__init__.meta.json OCP/ChFi2d/__init__.data.json
+LOG:  Cached module OCP.ChFi2d has changed interface
+LOG:  Processing SCC singleton (OCP.BRepMAT2d) as inherently stale with stale deps (OCP OCP.Bisector OCP.Geom2d OCP.MAT OCP.NCollection OCP.TColGeom2d OCP.TColStd OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepMAT2d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepMAT2d/__init__.pyi OCP/BRepMAT2d/__init__.meta.json OCP/BRepMAT2d/__init__.data.json
+LOG:  Cached module OCP.BRepMAT2d has changed interface
+LOG:  Processing SCC singleton (OCP.BRepPrim) as inherently stale with stale deps (OCP OCP.BRep OCP.Geom OCP.Geom2d OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepPrim /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepPrim/__init__.pyi OCP/BRepPrim/__init__.meta.json OCP/BRepPrim/__init__.data.json
+LOG:  Cached module OCP.BRepPrim has changed interface
+LOG:  Processing SCC singleton (OCP.BRepSweep) as inherently stale with stale deps (OCP OCP.BRep OCP.Sweep OCP.TopAbs OCP.TopLoc OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepSweep /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepSweep/__init__.pyi OCP/BRepSweep/__init__.meta.json OCP/BRepSweep/__init__.data.json
+LOG:  Cached module OCP.BRepSweep has changed interface
+LOG:  Processing SCC singleton (OCP.Geom2dAdaptor) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Geom2d OCP.GeomAbs OCP.Standard OCP.TColStd OCP.gp builtins typing)
+LOG:  Writing OCP.Geom2dAdaptor /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2dAdaptor/__init__.pyi OCP/Geom2dAdaptor/__init__.meta.json OCP/Geom2dAdaptor/__init__.data.json
+LOG:  Cached module OCP.Geom2dAdaptor has changed interface
+LOG:  Processing SCC singleton (OCP.Adaptor3d) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Geom OCP.GeomAbs OCP.Standard OCP.TColStd OCP.TopAbs OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.Adaptor3d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Adaptor3d/__init__.pyi OCP/Adaptor3d/__init__.meta.json OCP/Adaptor3d/__init__.data.json
+LOG:  Cached module OCP.Adaptor3d has changed interface
+LOG:  Processing SCC singleton (OCP.LocOpe) as inherently stale with stale deps (OCP OCP.Geom OCP.NCollection OCP.Standard OCP.TColGeom OCP.TColgp OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.LocOpe /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/LocOpe/__init__.pyi OCP/LocOpe/__init__.meta.json OCP/LocOpe/__init__.data.json
+LOG:  Cached module OCP.LocOpe has changed interface
+LOG:  Processing SCC singleton (OCP.BRepTools) as inherently stale with stale deps (OCP OCP.BRep OCP.Bnd OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.Message OCP.NCollection OCP.Poly OCP.Standard OCP.TColgp OCP.TCollection OCP.TopAbs OCP.TopLoc OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepTools /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepTools/__init__.pyi OCP/BRepTools/__init__.meta.json OCP/BRepTools/__init__.data.json
+LOG:  Cached module OCP.BRepTools has changed interface
+LOG:  Processing SCC singleton (OCP.TopExp) as inherently stale with stale deps (OCP OCP.TopAbs OCP.TopTools OCP.TopoDS builtins typing)
+LOG:  Writing OCP.TopExp /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopExp/__init__.pyi OCP/TopExp/__init__.meta.json OCP/TopExp/__init__.data.json
+LOG:  Cached module OCP.TopExp has changed interface
+LOG:  Processing SCC singleton (OCP.BRepBndLib) as inherently stale with stale deps (OCP OCP.Bnd OCP.TopoDS builtins typing)
+LOG:  Writing OCP.BRepBndLib /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepBndLib/__init__.pyi OCP/BRepBndLib/__init__.meta.json OCP/BRepBndLib/__init__.data.json
+LOG:  Cached module OCP.BRepBndLib has changed interface
+LOG:  Processing SCC singleton (OCP.IntSurf) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.GeomAbs OCP.NCollection OCP.Standard OCP.gp builtins typing)
+LOG:  Writing OCP.IntSurf /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntSurf/__init__.pyi OCP/IntSurf/__init__.meta.json OCP/IntSurf/__init__.data.json
+LOG:  Cached module OCP.IntSurf has changed interface
+LOG:  Processing SCC singleton (OCP.GeomConvert) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.Geom OCP.GeomAbs OCP.TColGeom OCP.TColStd OCP.TColgp builtins typing)
+LOG:  Writing OCP.GeomConvert /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomConvert/__init__.pyi OCP/GeomConvert/__init__.meta.json OCP/GeomConvert/__init__.data.json
+LOG:  Cached module OCP.GeomConvert has changed interface
+LOG:  Processing SCC of size 3 (OCP.StepRepr OCP.StepGeom OCP.StepShape) as inherently stale with stale deps (OCP OCP.Interface OCP.NCollection OCP.Standard OCP.StepBasic OCP.StepData OCP.TColStd OCP.TCollection builtins typing)
+LOG:  Writing OCP.StepRepr /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepRepr/__init__.pyi OCP/StepRepr/__init__.meta.json OCP/StepRepr/__init__.data.json
+LOG:  Cached module OCP.StepRepr has changed interface
+LOG:  Writing OCP.StepGeom /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepGeom/__init__.pyi OCP/StepGeom/__init__.meta.json OCP/StepGeom/__init__.data.json
+LOG:  Cached module OCP.StepGeom has changed interface
+LOG:  Writing OCP.StepShape /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/StepShape/__init__.pyi OCP/StepShape/__init__.meta.json OCP/StepShape/__init__.data.json
+LOG:  Cached module OCP.StepShape has changed interface
+LOG:  Processing SCC singleton (OCP.ShapeBuild) as inherently stale with stale deps (OCP OCP.BRepTools OCP.Geom OCP.Geom2d OCP.ShapeExtend OCP.Standard OCP.TopAbs OCP.TopLoc OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.ShapeBuild /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeBuild/__init__.pyi OCP/ShapeBuild/__init__.meta.json OCP/ShapeBuild/__init__.data.json
+LOG:  Cached module OCP.ShapeBuild has changed interface
+LOG:  Processing SCC singleton (OCP.Draft) as inherently stale with stale deps (OCP OCP.BRepTools OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.NCollection OCP.Poly OCP.Standard OCP.TopLoc OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.Draft /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Draft/__init__.pyi OCP/Draft/__init__.meta.json OCP/Draft/__init__.data.json
+LOG:  Cached module OCP.Draft has changed interface
+LOG:  Processing SCC singleton (OCP.Law) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.GeomAbs OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp builtins typing)
+LOG:  Writing OCP.Law /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Law/__init__.pyi OCP/Law/__init__.meta.json OCP/Law/__init__.data.json
+LOG:  Cached module OCP.Law has changed interface
+LOG:  Processing SCC singleton (OCP.Approx) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.AppCont OCP.AppParCurves OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp OCP.gp builtins typing)
+LOG:  Writing OCP.Approx /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Approx/__init__.pyi OCP/Approx/__init__.meta.json OCP/Approx/__init__.data.json
+LOG:  Cached module OCP.Approx has changed interface
+LOG:  Processing SCC singleton (OCP.GeomAdaptor) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.Geom OCP.GeomAbs OCP.Standard OCP.TColStd OCP.gp builtins typing)
+LOG:  Writing OCP.GeomAdaptor /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomAdaptor/__init__.pyi OCP/GeomAdaptor/__init__.meta.json OCP/GeomAdaptor/__init__.data.json
+LOG:  Cached module OCP.GeomAdaptor has changed interface
+LOG:  Processing SCC singleton (OCP.GCPnts) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.GCPnts /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GCPnts/__init__.pyi OCP/GCPnts/__init__.meta.json OCP/GCPnts/__init__.data.json
+LOG:  Cached module OCP.GCPnts has changed interface
+LOG:  Processing SCC singleton (OCP.IFSelect) as inherently stale with stale deps (OCP OCP.IFGraph OCP.Interface OCP.Message OCP.NCollection OCP.OpenGl OCP.Standard OCP.TColStd OCP.TCollection builtins typing)
+LOG:  Writing OCP.IFSelect /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IFSelect/__init__.pyi OCP/IFSelect/__init__.meta.json OCP/IFSelect/__init__.data.json
+LOG:  Cached module OCP.IFSelect has changed interface
+LOG:  Processing SCC singleton (OCP.BRepCheck) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.NCollection OCP.Standard OCP.TopTools OCP.TopoDS builtins typing)
+LOG:  Writing OCP.BRepCheck /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepCheck/__init__.pyi OCP/BRepCheck/__init__.meta.json OCP/BRepCheck/__init__.data.json
+LOG:  Cached module OCP.BRepCheck has changed interface
+LOG:  Processing SCC singleton (OCP.BRepLib) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.BRepTools OCP.Geom OCP.Geom2d OCP.TopLoc OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepLib /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepLib/__init__.pyi OCP/BRepLib/__init__.meta.json OCP/BRepLib/__init__.data.json
+LOG:  Cached module OCP.BRepLib has changed interface
+LOG:  Processing SCC singleton (OCP.BRepBuilderAPI) as inherently stale with stale deps (OCP OCP.BRepTools OCP.Bnd OCP.Geom OCP.Geom2d OCP.NCollection OCP.Standard OCP.TColStd OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepBuilderAPI /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepBuilderAPI/__init__.pyi OCP/BRepBuilderAPI/__init__.meta.json OCP/BRepBuilderAPI/__init__.data.json
+LOG:  Cached module OCP.BRepBuilderAPI has changed interface
+LOG:  Processing SCC singleton (OCP.Contap) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.Geom2d OCP.GeomAbs OCP.IntSurf OCP.NCollection OCP.Standard OCP.TColStd OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.Contap /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Contap/__init__.pyi OCP/Contap/__init__.meta.json OCP/Contap/__init__.data.json
+LOG:  Cached module OCP.Contap has changed interface
+LOG:  Processing SCC singleton (OCP.BlendFunc) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.Blend OCP.Convert OCP.GeomAbs OCP.Law OCP.TColStd OCP.TColgp OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.BlendFunc /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BlendFunc/__init__.pyi OCP/BlendFunc/__init__.meta.json OCP/BlendFunc/__init__.data.json
+LOG:  Cached module OCP.BlendFunc has changed interface
+LOG:  Processing SCC singleton (OCP.IntPatch) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.Bnd OCP.Geom2d OCP.GeomAbs OCP.IntAna OCP.IntSurf OCP.Intf OCP.NCollection OCP.Standard OCP.TColStd OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.IntPatch /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntPatch/__init__.pyi OCP/IntPatch/__init__.meta.json OCP/IntPatch/__init__.data.json
+LOG:  Cached module OCP.IntPatch has changed interface
+LOG:  Processing SCC singleton (OCP.IntCurveSurface) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.Bnd OCP.Geom OCP.GeomAbs OCP.IntSurf OCP.Intf OCP.NCollection OCP.TColStd OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.IntCurveSurface /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntCurveSurface/__init__.pyi OCP/IntCurveSurface/__init__.meta.json OCP/IntCurveSurface/__init__.data.json
+LOG:  Cached module OCP.IntCurveSurface has changed interface
+LOG:  Processing SCC singleton (OCP.XSControl) as inherently stale with stale deps (OCP OCP.IFSelect OCP.Interface OCP.Message OCP.OpenGl OCP.Standard OCP.TColStd OCP.TCollection OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.Transfer OCP.gp builtins typing)
+LOG:  Writing OCP.XSControl /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/XSControl/__init__.pyi OCP/XSControl/__init__.meta.json OCP/XSControl/__init__.data.json
+LOG:  Cached module OCP.XSControl has changed interface
+LOG:  Processing SCC singleton (OCP.GeomPlate) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.AdvApp2Var OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.GeomLProp OCP.Law OCP.NCollection OCP.Plate OCP.Standard OCP.TColGeom2d OCP.TColStd OCP.TColgp OCP.gp builtins typing)
+LOG:  Writing OCP.GeomPlate /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomPlate/__init__.pyi OCP/GeomPlate/__init__.meta.json OCP/GeomPlate/__init__.data.json
+LOG:  Cached module OCP.GeomPlate has changed interface
+LOG:  Processing SCC singleton (OCP.Extrema) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.Bnd OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.GeomAdaptor OCP.NCollection OCP.Standard OCP.TColStd OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.Extrema /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Extrema/__init__.pyi OCP/Extrema/__init__.meta.json OCP/Extrema/__init__.data.json
+LOG:  Cached module OCP.Extrema has changed interface
+LOG:  Processing SCC singleton (OCP.GeomFill) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.AppBlend OCP.Approx OCP.Convert OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.Law OCP.NCollection OCP.Standard OCP.TColGeom OCP.TColStd OCP.TColgp OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.GeomFill /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomFill/__init__.pyi OCP/GeomFill/__init__.meta.json OCP/GeomFill/__init__.data.json
+LOG:  Cached module OCP.GeomFill has changed interface
+LOG:  Processing SCC singleton (OCP.ShapeAnalysis) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.Bnd OCP.Geom OCP.Geom2d OCP.GeomAdaptor OCP.IntRes2d OCP.NCollection OCP.ShapeExtend OCP.Standard OCP.TColStd OCP.TColgp OCP.TopLoc OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.ShapeAnalysis /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeAnalysis/__init__.pyi OCP/ShapeAnalysis/__init__.meta.json OCP/ShapeAnalysis/__init__.data.json
+LOG:  Cached module OCP.ShapeAnalysis has changed interface
+LOG:  Processing SCC singleton (OCP.BRepPrimAPI) as inherently stale with stale deps (OCP OCP.BRepBuilderAPI OCP.BRepPrim OCP.BRepSweep OCP.Geom OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepPrimAPI /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepPrimAPI/__init__.pyi OCP/BRepPrimAPI/__init__.meta.json OCP/BRepPrimAPI/__init__.data.json
+LOG:  Cached module OCP.BRepPrimAPI has changed interface
+LOG:  Processing SCC singleton (OCP.BRepAdaptor) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.Geom OCP.Geom2d OCP.Geom2dAdaptor OCP.GeomAbs OCP.GeomAdaptor OCP.Standard OCP.TColStd OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepAdaptor /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepAdaptor/__init__.pyi OCP/BRepAdaptor/__init__.meta.json OCP/BRepAdaptor/__init__.data.json
+LOG:  Cached module OCP.BRepAdaptor has changed interface
+LOG:  Processing SCC singleton (OCP.Geom2dInt) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Bnd OCP.Extrema OCP.GeomAbs OCP.IntCurve OCP.IntRes2d OCP.Intf OCP.TColStd OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.Geom2dInt /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2dInt/__init__.pyi OCP/Geom2dInt/__init__.meta.json OCP/Geom2dInt/__init__.data.json
+LOG:  Cached module OCP.Geom2dInt has changed interface
+LOG:  Processing SCC singleton (OCP.BRepTopAdaptor) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.BRepAdaptor OCP.NCollection OCP.Standard OCP.TColStd OCP.TopAbs OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepTopAdaptor /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepTopAdaptor/__init__.pyi OCP/BRepTopAdaptor/__init__.meta.json OCP/BRepTopAdaptor/__init__.data.json
+LOG:  Cached module OCP.BRepTopAdaptor has changed interface
+LOG:  Processing SCC singleton (OCP.GeomInt) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.AppParCurves OCP.Approx OCP.Bnd OCP.Geom OCP.Geom2d OCP.GeomAdaptor OCP.IntImp OCP.IntPatch OCP.IntSurf OCP.NCollection OCP.TColStd OCP.TColgp OCP.TopAbs OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.GeomInt /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomInt/__init__.pyi OCP/GeomInt/__init__.meta.json OCP/GeomInt/__init__.data.json
+LOG:  Cached module OCP.GeomInt has changed interface
+LOG:  Processing SCC singleton (OCP.TopOpeBRepTool) as inherently stale with stale deps (OCP OCP.BRepAdaptor OCP.Bnd OCP.Extrema OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.GeomAdaptor OCP.NCollection OCP.Standard OCP.TColgp OCP.TopAbs OCP.TopExp OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.TopOpeBRepTool /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopOpeBRepTool/__init__.pyi OCP/TopOpeBRepTool/__init__.meta.json OCP/TopOpeBRepTool/__init__.data.json
+LOG:  Cached module OCP.TopOpeBRepTool has changed interface
+LOG:  Processing SCC singleton (OCP.IntCurvesFace) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.Bnd OCP.GeomAbs OCP.IntCurveSurface OCP.TopAbs OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.IntCurvesFace /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntCurvesFace/__init__.pyi OCP/IntCurvesFace/__init__.meta.json OCP/IntCurvesFace/__init__.data.json
+LOG:  Cached module OCP.IntCurvesFace has changed interface
+LOG:  Processing SCC singleton (OCP.ShapeConstruct) as inherently stale with stale deps (OCP OCP.BRepBuilderAPI OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.ShapeAnalysis OCP.ShapeExtend OCP.Standard OCP.TColStd OCP.TColgp OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.ShapeConstruct /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeConstruct/__init__.pyi OCP/ShapeConstruct/__init__.meta.json OCP/ShapeConstruct/__init__.data.json
+LOG:  Cached module OCP.ShapeConstruct has changed interface
+LOG:  Processing SCC singleton (OCP.ChFiDS) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.BRepAdaptor OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.Law OCP.NCollection OCP.Standard OCP.TColStd OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.ChFiDS /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ChFiDS/__init__.pyi OCP/ChFiDS/__init__.meta.json OCP/ChFiDS/__init__.data.json
+LOG:  Cached module OCP.ChFiDS has changed interface
+LOG:  Processing SCC singleton (OCP.ShapeUpgrade) as inherently stale with stale deps (OCP OCP.BRepTools OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.Message OCP.ShapeAnalysis OCP.ShapeBuild OCP.ShapeExtend OCP.Standard OCP.TColGeom OCP.TColGeom2d OCP.TColStd OCP.TopAbs OCP.TopLoc OCP.TopTools OCP.TopoDS builtins typing)
+LOG:  Writing OCP.ShapeUpgrade /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeUpgrade/__init__.pyi OCP/ShapeUpgrade/__init__.meta.json OCP/ShapeUpgrade/__init__.data.json
+LOG:  Cached module OCP.ShapeUpgrade has changed interface
+LOG:  Processing SCC singleton (OCP.STEPControl) as inherently stale with stale deps (OCP OCP.IFSelect OCP.Interface OCP.Standard OCP.StepData OCP.StepGeom OCP.StepRepr OCP.StepShape OCP.TColStd OCP.TopoDS OCP.Transfer OCP.XSControl OCP.gp builtins typing)
+LOG:  Writing OCP.STEPControl /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/STEPControl/__init__.pyi OCP/STEPControl/__init__.meta.json OCP/STEPControl/__init__.data.json
+LOG:  Cached module OCP.STEPControl has changed interface
+LOG:  Processing SCC singleton (OCP.BRepFill) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.AppCont OCP.AppParCurves OCP.BRepMAT2d OCP.Bisector OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.GeomFill OCP.GeomLProp OCP.GeomPlate OCP.Law OCP.MAT OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepFill /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepFill/__init__.pyi OCP/BRepFill/__init__.meta.json OCP/BRepFill/__init__.data.json
+LOG:  Cached module OCP.BRepFill has changed interface
+LOG:  Processing SCC singleton (OCP.GeomAPI) as inherently stale with stale deps (OCP OCP.Approx OCP.Extrema OCP.Geom OCP.Geom2d OCP.TColStd OCP.TColgp OCP.gp builtins typing)
+LOG:  Writing OCP.GeomAPI /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/GeomAPI/__init__.pyi OCP/GeomAPI/__init__.meta.json OCP/GeomAPI/__init__.data.json
+LOG:  Cached module OCP.GeomAPI has changed interface
+LOG:  Processing SCC singleton (OCP.BRepLProp) as inherently stale with stale deps (OCP OCP.BRepAdaptor OCP.GeomAbs OCP.gp builtins typing)
+LOG:  Writing OCP.BRepLProp /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepLProp/__init__.pyi OCP/BRepLProp/__init__.meta.json OCP/BRepLProp/__init__.data.json
+LOG:  Cached module OCP.BRepLProp has changed interface
+LOG:  Processing SCC singleton (OCP.BRepGProp) as inherently stale with stale deps (OCP OCP.BRepAdaptor OCP.GProp OCP.GeomAbs OCP.Poly OCP.TColStd OCP.TColgp OCP.TopAbs OCP.TopLoc OCP.TopoDS OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.BRepGProp /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepGProp/__init__.pyi OCP/BRepGProp/__init__.meta.json OCP/BRepGProp/__init__.data.json
+LOG:  Cached module OCP.BRepGProp has changed interface
+LOG:  Processing SCC singleton (OCP.BRepMesh) as inherently stale with stale deps (OCP OCP.BRepAdaptor OCP.Bnd OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.NCollection OCP.Poly OCP.Standard OCP.TColStd OCP.TCollection OCP.TopAbs OCP.TopLoc OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepMesh /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepMesh/__init__.pyi OCP/BRepMesh/__init__.meta.json OCP/BRepMesh/__init__.data.json
+LOG:  Cached module OCP.BRepMesh has changed interface
+LOG:  Processing SCC singleton (OCP.HLRTopoBRep) as inherently stale with stale deps (OCP OCP.BRepTopAdaptor OCP.Contap OCP.Geom2d OCP.HLRAlgo OCP.NCollection OCP.Standard OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.HLRTopoBRep /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HLRTopoBRep/__init__.pyi OCP/HLRTopoBRep/__init__.meta.json OCP/HLRTopoBRep/__init__.data.json
+LOG:  Cached module OCP.HLRTopoBRep has changed interface
+LOG:  Processing SCC singleton (OCP.Geom2dHatch) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Geom2d OCP.Geom2dAdaptor OCP.Geom2dInt OCP.HatchGen OCP.IntRes2d OCP.NCollection OCP.TopAbs OCP.gp builtins typing)
+LOG:  Writing OCP.Geom2dHatch /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/Geom2dHatch/__init__.pyi OCP/Geom2dHatch/__init__.meta.json OCP/Geom2dHatch/__init__.data.json
+LOG:  Cached module OCP.Geom2dHatch has changed interface
+LOG:  Processing SCC singleton (OCP.BRepBlend) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.AppBlend OCP.Approx OCP.Blend OCP.BlendFunc OCP.ChFiDS OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.IntSurf OCP.Law OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp OCP.TopAbs OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.BRepBlend /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepBlend/__init__.pyi OCP/BRepBlend/__init__.meta.json OCP/BRepBlend/__init__.data.json
+LOG:  Cached module OCP.BRepBlend has changed interface
+LOG:  Processing SCC singleton (OCP.TopOpeBRepDS) as inherently stale with stale deps (OCP OCP.Geom OCP.Geom2d OCP.NCollection OCP.Standard OCP.TColStd OCP.TCollection OCP.TopAbs OCP.TopOpeBRepTool OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.TopOpeBRepDS /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopOpeBRepDS/__init__.pyi OCP/TopOpeBRepDS/__init__.meta.json OCP/TopOpeBRepDS/__init__.data.json
+LOG:  Cached module OCP.TopOpeBRepDS has changed interface
+LOG:  Processing SCC singleton (OCP.BRepClass3d) as inherently stale with stale deps (OCP OCP.BRepAdaptor OCP.Bnd OCP.IntCurveSurface OCP.IntCurvesFace OCP.NCollection OCP.ShapeAnalysis OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepClass3d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepClass3d/__init__.pyi OCP/BRepClass3d/__init__.meta.json OCP/BRepClass3d/__init__.data.json
+LOG:  Cached module OCP.BRepClass3d has changed interface
+LOG:  Processing SCC singleton (OCP.ShapeFix) as inherently stale with stale deps (OCP OCP.Bnd OCP.Geom OCP.Geom2d OCP.Message OCP.NCollection OCP.ShapeAnalysis OCP.ShapeBuild OCP.ShapeConstruct OCP.ShapeExtend OCP.Standard OCP.TopAbs OCP.TopLoc OCP.TopTools OCP.TopoDS builtins typing)
+LOG:  Writing OCP.ShapeFix /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ShapeFix/__init__.pyi OCP/ShapeFix/__init__.meta.json OCP/ShapeFix/__init__.data.json
+LOG:  Cached module OCP.ShapeFix has changed interface
+LOG:  Processing SCC singleton (OCP.HLRBRep) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.BRepAdaptor OCP.BRepTopAdaptor OCP.Bnd OCP.Extrema OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.HLRAlgo OCP.HLRTopoBRep OCP.IntCurveSurface OCP.IntRes2d OCP.IntSurf OCP.Intf OCP.NCollection OCP.Standard OCP.TColStd OCP.TColgp OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.HLRBRep /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/HLRBRep/__init__.pyi OCP/HLRBRep/__init__.meta.json OCP/HLRBRep/__init__.data.json
+LOG:  Cached module OCP.HLRBRep has changed interface
+LOG:  Processing SCC singleton (OCP.IntTools) as inherently stale with stale deps (OCP OCP.Adaptor2d OCP.Adaptor3d OCP.BRepAdaptor OCP.BRepClass3d OCP.Bnd OCP.Geom OCP.Geom2d OCP.Geom2dHatch OCP.GeomAPI OCP.GeomAbs OCP.GeomAdaptor OCP.GeomInt OCP.IntPatch OCP.IntSurf OCP.NCollection OCP.Standard OCP.TColStd OCP.TopAbs OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.IntTools /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/IntTools/__init__.pyi OCP/IntTools/__init__.meta.json OCP/IntTools/__init__.data.json
+LOG:  Cached module OCP.IntTools has changed interface
+LOG:  Processing SCC singleton (OCP.TopOpeBRepBuild) as inherently stale with stale deps (OCP OCP.NCollection OCP.Standard OCP.TColStd OCP.TCollection OCP.TopAbs OCP.TopOpeBRepDS OCP.TopOpeBRepTool OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.TopOpeBRepBuild /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/TopOpeBRepBuild/__init__.pyi OCP/TopOpeBRepBuild/__init__.meta.json OCP/TopOpeBRepBuild/__init__.data.json
+LOG:  Cached module OCP.TopOpeBRepBuild has changed interface
+LOG:  Processing SCC singleton (OCP.BOPTools) as inherently stale with stale deps (OCP OCP.BRepAdaptor OCP.Geom OCP.Geom2d OCP.Graphic3d OCP.IntTools OCP.NCollection OCP.SelectMgr OCP.TColStd OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BOPTools /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BOPTools/__init__.pyi OCP/BOPTools/__init__.meta.json OCP/BOPTools/__init__.data.json
+LOG:  Cached module OCP.BOPTools has changed interface
+LOG:  Processing SCC singleton (OCP.BRepAlgo) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.BRepBuilderAPI OCP.Geom OCP.GeomAbs OCP.Standard OCP.TopAbs OCP.TopOpeBRepBuild OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepAlgo /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepAlgo/__init__.pyi OCP/BRepAlgo/__init__.meta.json OCP/BRepAlgo/__init__.data.json
+LOG:  Cached module OCP.BRepAlgo has changed interface
+LOG:  Processing SCC singleton (OCP.BOPDS) as inherently stale with stale deps (OCP OCP.Bnd OCP.IntTools OCP.NCollection OCP.Standard OCP.TColStd OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BOPDS /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BOPDS/__init__.pyi OCP/BOPDS/__init__.meta.json OCP/BOPDS/__init__.data.json
+LOG:  Cached module OCP.BOPDS has changed interface
+LOG:  Processing SCC singleton (OCP.ChFi3d) as inherently stale with stale deps (OCP OCP.Adaptor3d OCP.BRepAdaptor OCP.BRepBlend OCP.Bnd OCP.ChFiDS OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.GeomAdaptor OCP.GeomFill OCP.IntSurf OCP.Law OCP.TColStd OCP.TopAbs OCP.TopOpeBRepBuild OCP.TopOpeBRepDS OCP.TopTools OCP.TopoDS OCP.gp OCP.math builtins typing)
+LOG:  Writing OCP.ChFi3d /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/ChFi3d/__init__.pyi OCP/ChFi3d/__init__.meta.json OCP/ChFi3d/__init__.data.json
+LOG:  Cached module OCP.ChFi3d has changed interface
+LOG:  Processing SCC singleton (OCP.BOPAlgo) as inherently stale with stale deps (OCP OCP.BOPDS OCP.BOPTools OCP.BRepTools OCP.IntTools OCP.Message OCP.NCollection OCP.Standard OCP.TopAbs OCP.TopTools OCP.TopoDS builtins typing)
+LOG:  Writing OCP.BOPAlgo /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BOPAlgo/__init__.pyi OCP/BOPAlgo/__init__.meta.json OCP/BOPAlgo/__init__.data.json
+LOG:  Cached module OCP.BOPAlgo has changed interface
+LOG:  Processing SCC singleton (OCP.BRepOffset) as inherently stale with stale deps (OCP OCP.BRepAlgo OCP.BRepTools OCP.Geom OCP.Geom2d OCP.GeomAbs OCP.NCollection OCP.Poly OCP.Standard OCP.TCollection OCP.TopAbs OCP.TopLoc OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepOffset /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepOffset/__init__.pyi OCP/BRepOffset/__init__.meta.json OCP/BRepOffset/__init__.data.json
+LOG:  Cached module OCP.BRepOffset has changed interface
+LOG:  Processing SCC singleton (OCP.BRepFilletAPI) as inherently stale with stale deps (OCP OCP.BRepBuilderAPI OCP.ChFi2d OCP.ChFi3d OCP.ChFiDS OCP.Geom OCP.GeomAbs OCP.Law OCP.TColgp OCP.TopOpeBRepBuild OCP.TopTools OCP.TopoDS builtins typing)
+LOG:  Writing OCP.BRepFilletAPI /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepFilletAPI/__init__.pyi OCP/BRepFilletAPI/__init__.meta.json OCP/BRepFilletAPI/__init__.data.json
+LOG:  Cached module OCP.BRepFilletAPI has changed interface
+LOG:  Processing SCC singleton (OCP.BRepFeat) as inherently stale with stale deps (OCP OCP.BOPAlgo OCP.BOPDS OCP.BRepBuilderAPI OCP.BRepTools OCP.Geom OCP.IntTools OCP.LocOpe OCP.Message OCP.NCollection OCP.Standard OCP.TColGeom OCP.TColgp OCP.TopAbs OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepFeat /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepFeat/__init__.pyi OCP/BRepFeat/__init__.meta.json OCP/BRepFeat/__init__.data.json
+LOG:  Cached module OCP.BRepFeat has changed interface
+LOG:  Processing SCC singleton (OCP.BRepOffsetAPI) as inherently stale with stale deps (OCP OCP.Approx OCP.BRepBuilderAPI OCP.BRepFill OCP.BRepOffset OCP.BRepPrimAPI OCP.Draft OCP.Geom OCP.GeomAbs OCP.GeomFill OCP.Law OCP.NCollection OCP.TColStd OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepOffsetAPI /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepOffsetAPI/__init__.pyi OCP/BRepOffsetAPI/__init__.meta.json OCP/BRepOffsetAPI/__init__.data.json
+LOG:  Cached module OCP.BRepOffsetAPI has changed interface
+LOG:  Processing SCC singleton (OCP.BRepAlgoAPI) as inherently stale with stale deps (OCP OCP.BOPAlgo OCP.BRepBuilderAPI OCP.BRepTools OCP.Geom OCP.Message OCP.NCollection OCP.Standard OCP.TopTools OCP.TopoDS OCP.gp builtins typing)
+LOG:  Writing OCP.BRepAlgoAPI /opt/miniconda3/envs/cq-dev/lib/python3.7/site-packages/OCP-stubs/BRepAlgoAPI/__init__.pyi OCP/BRepAlgoAPI/__init__.meta.json OCP/BRepAlgoAPI/__init__.data.json
+LOG:  Cached module OCP.BRepAlgoAPI has changed interface
+LOG:  Processing SCC of size 4 (cadquery.occ_impl.geom cadquery.occ_impl.shapes cadquery.occ_impl.exporters.svg cadquery.occ_impl.jupyter_tools) as inherently stale with stale deps (OCP OCP.BOPAlgo OCP.BRep OCP.BRepAdaptor OCP.BRepAlgoAPI OCP.BRepBndLib OCP.BRepBuilderAPI OCP.BRepCheck OCP.BRepClass3d OCP.BRepFeat OCP.BRepFill OCP.BRepFilletAPI OCP.BRepGProp OCP.BRepLProp OCP.BRepLib OCP.BRepMesh OCP.BRepOffset OCP.BRepOffsetAPI OCP.BRepPrimAPI OCP.BRepTools OCP.Bnd OCP.Font OCP.GC OCP.GCE2d OCP.GCPnts OCP.GProp OCP.Geom OCP.Geom2d OCP.GeomAPI OCP.GeomAbs OCP.GeomFill OCP.HLRAlgo OCP.HLRBRep OCP.IFSelect OCP.LocOpe OCP.STEPControl OCP.ShapeAnalysis OCP.ShapeFix OCP.ShapeUpgrade OCP.StlAPI OCP.TColgp OCP.TCollection OCP.TopAbs OCP.TopExp OCP.TopLoc OCP.TopTools OCP.TopoDS OCP.gp builtins io math typing typing_extensions warnings)
+LOG:  Writing cadquery.occ_impl.geom /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/geom.py cadquery/occ_impl/geom.meta.json cadquery/occ_impl/geom.data.json
+LOG:  Cached module cadquery.occ_impl.geom has changed interface
+LOG:  Writing cadquery.occ_impl.shapes /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/shapes.py cadquery/occ_impl/shapes.meta.json cadquery/occ_impl/shapes.data.json
+LOG:  Cached module cadquery.occ_impl.shapes has changed interface
+LOG:  Writing cadquery.occ_impl.exporters.svg /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/svg.py cadquery/occ_impl/exporters/svg.meta.json cadquery/occ_impl/exporters/svg.data.json
+LOG:  Cached module cadquery.occ_impl.exporters.svg has changed interface
+LOG:  Writing cadquery.occ_impl.jupyter_tools /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/jupyter_tools.py cadquery/occ_impl/jupyter_tools.meta.json cadquery/occ_impl/jupyter_tools.data.json
+LOG:  Cached module cadquery.occ_impl.jupyter_tools has changed interface
+LOG:  Processing SCC singleton (cadquery.selectors) as inherently stale with stale deps (builtins cadquery.occ_impl.geom cadquery.occ_impl.shapes collections functools math)
+LOG:  Writing cadquery.selectors /home/wink/prgs/CadQuery/forks/cadquery/cadquery/selectors.py cadquery/selectors.meta.json cadquery/selectors.data.json
+LOG:  Cached module cadquery.selectors has changed interface
+LOG:  Processing SCC singleton (cadquery.cq) as inherently stale with stale deps (builtins cadquery.occ_impl.exporters.svg cadquery.occ_impl.geom cadquery.occ_impl.shapes cadquery.selectors cadquery.utils copy itertools math typing typing_extensions warnings)
+LOG:  Writing cadquery.cq /home/wink/prgs/CadQuery/forks/cadquery/cadquery/cq.py cadquery/cq.meta.json cadquery/cq.data.json
+LOG:  Cached module cadquery.cq has changed interface
+LOG:  Processing SCC singleton (cadquery.occ_impl.exporters.utils) as inherently stale with stale deps (builtins cadquery.cq cadquery.occ_impl.shapes)
+LOG:  Writing cadquery.occ_impl.exporters.utils /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/utils.py cadquery/occ_impl/exporters/utils.meta.json cadquery/occ_impl/exporters/utils.data.json
+LOG:  Cached module cadquery.occ_impl.exporters.utils has changed interface
+LOG:  Processing SCC singleton (cadquery.occ_impl.exporters.dxf) as inherently stale with stale deps (OCP.GeomConvert OCP.gp builtins cadquery.cq cadquery.occ_impl.exporters.utils cadquery.occ_impl.shapes cadquery.units)
+LOG:  Writing cadquery.occ_impl.exporters.dxf /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/dxf.py cadquery/occ_impl/exporters/dxf.meta.json cadquery/occ_impl/exporters/dxf.data.json
+LOG:  Cached module cadquery.occ_impl.exporters.dxf has changed interface
+LOG:  Processing SCC singleton (cadquery.occ_impl.exporters) as inherently stale with stale deps (builtins cadquery.cq cadquery.occ_impl.exporters.amf cadquery.occ_impl.exporters.dxf cadquery.occ_impl.exporters.json cadquery.occ_impl.exporters.svg cadquery.occ_impl.exporters.utils cadquery.occ_impl.shapes cadquery.utils io os tempfile typing typing_extensions)
+LOG:  Writing cadquery.occ_impl.exporters /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/exporters/__init__.py cadquery/occ_impl/exporters/__init__.meta.json cadquery/occ_impl/exporters/__init__.data.json
+LOG:  Cached module cadquery.occ_impl.exporters has changed interface
+LOG:  Processing SCC of size 2 (cadquery.occ_impl.importers cadquery) as inherently stale with stale deps (OCP OCP.BRepBuilderAPI OCP.Geom OCP.IFSelect OCP.STEPControl OCP.ShapeAnalysis OCP.TColStd OCP.TColgp OCP.TopTools OCP.gp builtins cadquery.cq cadquery.occ_impl cadquery.occ_impl.exporters cadquery.occ_impl.geom cadquery.occ_impl.shapes cadquery.plugins cadquery.selectors collections math)
+LOG:  Writing cadquery.occ_impl.importers /home/wink/prgs/CadQuery/forks/cadquery/cadquery/occ_impl/importers.py cadquery/occ_impl/importers.meta.json cadquery/occ_impl/importers.data.json
+LOG:  Cached module cadquery.occ_impl.importers has changed interface
+LOG:  Writing cadquery /home/wink/prgs/CadQuery/forks/cadquery/cadquery/__init__.py cadquery/__init__.meta.json cadquery/__init__.data.json
+LOG:  Cached module cadquery has changed interface
+LOG:  Processing SCC singleton (workplane) as inherently stale with stale deps (builtins cadquery)
+LOG:  Writing workplane workplane.py workplane.meta.json workplane.data.json
+LOG:  Cached module workplane has changed interface
+LOG:  No fresh SCCs left in queue
+LOG:  Build finished in 73.059 seconds with 197 modules, and 0 errors
+Success: no issues found in 1 source file
