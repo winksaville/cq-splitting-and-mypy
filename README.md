@@ -2,7 +2,10 @@
 
 
 Update: Adam has merged [PR #430](https://github.com/CadQuery/cadquery/pull/430) and
+now there is only one error when I use stubgen to generate `*.pyi` files. Additonally,
+the reason 
 educated me on how [@overload](https://docs.python.org/3/library/typing.html#typing.overload) works.
+
 
 
 ---
